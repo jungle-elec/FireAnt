@@ -1,0 +1,2 @@
+# FireAnt
+"Very low cost, tiny (USB thumb size), open source FPGA board 1st board with Efinix Trion FPGA and comes with Efinity IDE Solder or unsoldered version - ready to go with a PC and no extra components Breadboard friendly to allow quick application with sensors, peripherals or other interfaces For hobbyist, students learning digital design or manufacturers prototyping with new Efinix platform"
