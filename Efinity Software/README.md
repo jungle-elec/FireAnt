@@ -14,12 +14,12 @@
 * 16GB RAM
 
 * Windows Environment
-  ** Windows 7 or later (64-bit)
-  ** [Microsoft Visual C++ 2015 x64 runtime library] (https://www.microsoft.com/en-us/download/details.aspx?id=52685)
-  ** Simulator (Optional): 
-     *** Cadence Incisive Enterprise Simulator (ncsim)
-     *** Mentor Graphics ModelSim Simulator
-	 *** [iVerlog](http://iverilog.icarus.com/)
+  * Windows 7 or later (64-bit)
+  * [Microsoft Visual C++ 2015 x64 runtime library] (https://www.microsoft.com/en-us/download/details.aspx?id=52685)
+  * Simulator (Optional): 
+    * Cadence Incisive Enterprise Simulator (ncsim)
+    * Mentor Graphics ModelSim Simulator
+	* [iVerlog](http://iverilog.icarus.com/)
 	 
 
 ## Download Required Software
