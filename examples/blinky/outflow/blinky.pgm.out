@@ -1,0 +1,17 @@
+
+Efinix FPGA Programmer.
+Version: 2018.4.285 
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+Compiled: Jan 27 2019.
+
+Using source file "C:/Efinity/2018.4/project/blinky/work_pnr/blinky.lbf"
+Generating HEX programming file for device "T8F81", family "Trion"
+Using periphery source file "C:/Efinity/2018.4/project/blinky/outflow/blinky.lpf"
+Finished generating "C:/Efinity/2018.4/project/blinky/outflow/blinky.hex"
+Efinity Programmer took 1.94219 seconds.
+	Efinity Programmer took 1.943 seconds (approximately) in total CPU time.
+Efinity Programmer virtual memory usage: begin = 2.884 MB, end = 4.672 MB, delta = 1.788 MB
+	Efinity Programmer peak virtual memory usage = 14.548 MB
+Efinity Programmer resident set memory usage: begin = 5.908 MB, end = 9.716 MB, delta = 3.808 MB
+	Efinity Programmer peak resident set memory usage = 18.624 MB

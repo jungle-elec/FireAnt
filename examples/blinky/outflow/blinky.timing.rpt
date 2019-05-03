@@ -1,0 +1,189 @@
+
+Efinix Static Timing Analysis Report
+Version: 2018.4.285 
+Date: Fri May 03 17:13:50 2019
+
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+ 
+Top-level Entity Name: blinky
+
+SDC Filename: C:/Efinity/2018.4/project/blinky/blinky.sdc
+
+Timing Model: C2
+	temperature : 0C to 85C
+	voltage : 1.1V +/-50mV
+	speedgrade : 2
+	technology : s40ll
+	status : final
+
+	NOTE: The timing data is not final.
+
+---------- Table of Contents (begin) ----------
+   1. Clock Frequency Summary 
+   2. Clock Relationship Summary 
+   3. Path Details for Max Critical Paths 
+   4. Path Details for Min Critical Paths 
+---------- Table of Contents (end) ------------
+
+---------- 1. Clock Frequency Summary (begin) ----------
+
+User target constrained clocks
+Clock Name      Period (ns)   Frequency (MHz)   Waveform   Source Clock Name
+clk            100000.000           0.010         {0.000 50000.000}        clk
+
+Maximum possible analyzed clocks frequency
+Clock Name      Period (ns)   Frequency (MHz)   Edge
+clk                20.547          48.669     (R-R)
+
+---------- Clock Frequency Summary (end) ---------------
+
+---------- 2. Clock Relationship Summary (begin) ----------
+
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+clk              clk               99999.997     99979.450     (R-R)
+
+NOTE: Values are in nanoseconds.
+
+---------- Clock Relationship Summary (end) ---------------
+
+---------- 3. Path Details for Max Critical Paths (begin) ----------
+
+
+######################################################################
+Path Detail Report (clk vs clk)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : clk_count[10]~FF|CLK
+Path End      : led
+Launch Clock  : clk (RISE)
+Capture Clock : clk (RISE)
+Slack         : 99979.5  (required time - arrival time)
+Delay         : 10.001
+
+Logic Level : 2
+Non-global nets on path : 3
+Global nets on path     : 0
+
+Launch Clock Path Delay        : 4.757
++ Clock To Q + Data Path Delay : 10.651
+--------------------------------------------
+End-of-path arrival time       : 15.408
+
+Constraint                     : 100000
++ Capture Clock Path Delay     : 0
+- Clock Uncertainty            : 0.14
+- Output Delay                 : 5
+--------------------------------------------
+End-of-path required time      : 99994.9
+
+
+Launch Clock Path
+pin name                model name    delay (ns)   cumulative delay (ns)    pins on net   location
+===================================================================================================
+ clk                     inpad               0                      0           2          (78,85)
+ clk                     inpad            0.42                   0.42           2          (78,85)
+ clk                     io                  0                   0.42           2          (78,85)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in         gbuf_block      1.019                  1.439           2          (77,85)
+ CLKBUF__0|I             gbuf            3.318                  4.757           2          (77,85)
+ CLKBUF__0|O             gbuf                0                  4.757          16          (77,85)
+ CLKBUF__0|clkout        gbuf_block          0                  4.757          16          (77,85)
+ clk_count[10]~FF|CLK    ff                  0                  4.757          16          (73,150)
+
+Data Path
+pin name                  model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=====================================================================================================
+ clk_count[10]~FF|Q        ff                0.65                   0.65           3          (73,150)
+ clk_count[10]~FF|O_seq    eft              2.481                  3.131           3          (73,150)
+   Routing elements:  
+     Manhattan distance of X:0, Y:5
+ LUT__133|I[3]             eft              0.259                   3.39           3          (73,155)
+ LUT__133|in[3]            lut                  0                  3.391           3          (73,155)
+ LUT__133|out              lut                  0                  3.391           2          (73,155)
+ LUT__133|O                eft              3.548                  6.938           2          (73,155)
+   Routing elements:   feedthru(1)
+     Manhattan distance of X:2, Y:6
+ LUT__134|I[1]             eft              0.533                  7.471           2          (75,149)
+ LUT__134|in[1]            lut                  0                  7.471           2          (75,149)
+ LUT__134|out              lut                  0                  7.471           2          (75,149)
+ LUT__134|O                eft               2.76                 10.231           2          (75,149)
+   Routing elements:  
+     Manhattan distance of X:3, Y:4
+ led                       io                0.42                 10.651           2          (78,145)
+
+---------- Path Details for Max Critical Paths (end) ---------------
+
+---------- 4. Path Details for Min Critical Paths (begin) ----------
+
+
+######################################################################
+Path Detail Report (clk vs clk)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : clk_count[0]~FF|CLK
+Path End      : clk_count[0]~FF|D
+Launch Clock  : clk (RISE)
+Capture Clock : clk (RISE)
+Slack         : 0.643  (arrival time - required time)
+Delay         : 0.461
+
+Logic Level : 0
+Non-global nets on path : 1
+Global nets on path     : 0
+
+Launch Clock Path Delay        : 1.699
++ Clock To Q + Data Path Delay : 0.693
+--------------------------------------------
+End-of-path arrival time       : 2.392
+
+Constraint                     : 0
++ Capture Clock Path Delay     : 1.699
++ Clock Uncertainty            : 0.05
+--------------------------------------------
+End-of-path required time      : 1.749
+
+
+Launch Clock Path
+pin name               model name    delay (ns)   cumulative delay (ns)    pins on net   location
+==================================================================================================
+ clk                    inpad               0                      0           2          (78,85)
+ clk                    inpad            0.15                   0.15           2          (78,85)
+ clk                    io                  0                   0.15           2          (78,85)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in        gbuf_block      0.364                  0.514           2          (77,85)
+ CLKBUF__0|I            gbuf            1.185                  1.699           2          (77,85)
+ CLKBUF__0|O            gbuf                0                  1.699          16          (77,85)
+ CLKBUF__0|clkout       gbuf_block          0                  1.699          16          (77,85)
+ clk_count[0]~FF|CLK    ff                  0                  1.699          16          (73,140)
+
+Data Path
+pin name                 model name    delay (ns)   cumulative delay (ns)    pins on net   location
+====================================================================================================
+ clk_count[0]~FF|Q        ff               0.232                  0.232           3          (73,140)
+ clk_count[0]~FF|O_seq    eft              0.368                    0.6           3          (73,140)
+ clk_count[0]~FF|I[3]     eft              0.093                  0.693           3          (73,140)
+ clk_count[0]~FF|in[3]    lut4                 0                  0.693           3          (73,140)
+
+Capture Clock Path
+pin name               model name    delay (ns)   cumulative delay (ns)    pins on net   location
+==================================================================================================
+ clk                    inpad               0                      0           2          (78,85)
+ clk                    inpad            0.15                   0.15           2          (78,85)
+ clk                    io                  0                   0.15           2          (78,85)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in        gbuf_block      0.364                  0.514           2          (77,85)
+ CLKBUF__0|I            gbuf            1.185                  1.699           2          (77,85)
+ CLKBUF__0|O            gbuf                0                  1.699          16          (77,85)
+ CLKBUF__0|clkout       gbuf_block          0                  1.699          16          (77,85)
+ clk_count[0]~FF|CLK    ff                  0                  1.699          16          (73,140)
+
+---------- Path Details for Min Critical Paths (end) ---------------

@@ -1,0 +1,24 @@
+#block name x y subblk  block number
+#---------- --  --  ------  ------------
+clk_count[9]~FF	73	149	0	#0
+clk_count[5]~FF	73	145	0	#1
+clk_count[1]~FF	73	141	0	#2
+clk_count[0]~FF	73	140	0	#3
+clk_count[4]~FF	73	144	0	#4
+clk_count[2]~FF	73	142	0	#5
+clk_count[6]~FF	73	146	0	#6
+clk_count[12]~FF	73	152	0	#7
+clk_count[8]~FF	73	148	0	#8
+clk_count[3]~FF	73	143	0	#9
+clk_count[14]~FF	73	154	0	#10
+clk_count[7]~FF	73	147	0	#11
+clk_count[10]~FF	73	150	0	#12
+clk_count[13]~FF	73	153	0	#13
+clk_count[11]~FF	73	151	0	#14
+GND	67	147	0	#15
+CLKBUF__0	77	85	0	#16
+LUT__134	75	149	0	#17
+LUT__133	73	155	0	#18
+VCC	70	54	0	#19
+clk	78	85	1	#20
+led	78	145	0	#21

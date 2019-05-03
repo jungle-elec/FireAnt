@@ -1,0 +1,85 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2018.4.285 
+Compiled: Jan 27 2019.
+
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage routing graph generation ... *****
+This design has 0 global control net(s). See C:/Efinity/2018.4/project/blinky/outflow\blinky.route.rpt for details.
+Routing graph took 0.937373 seconds.
+	Routing graph took 0.937 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 21.232 MB, end = 148.312 MB, delta = 127.08 MB
+	Routing graph peak virtual memory usage = 169.016 MB
+Routing graph resident set memory usage: begin = 27.824 MB, end = 152.46 MB, delta = 124.636 MB
+	Routing graph peak resident set memory usage = 173.068 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1            2              19.76             0.0102
+         2            1              19.76              0.011
+         3            0              20.41             0.0121
+
+Successfully routed netlist after 3 routing iterations.
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 22919041
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Efinity/2018.4/project/blinky/outflow/blinky.route'
+Routing took 0.086458 seconds.
+	Routing took 0.087 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 148.312 MB, end = 148.312 MB, delta = 0 MB
+	Routing peak virtual memory usage = 176.064 MB
+Routing resident set memory usage: begin = 152.468 MB, end = 152.644 MB, delta = 0.176 MB
+	Routing peak resident set memory usage = 173.068 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+
+NOTE: The timing data is not final.
+
+Maximum possible analyzed clocks frequency
+Clock Name      Period (ns)   Frequency (MHz)   Edge
+clk                20.547          48.669     (R-R)
+
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+clk              clk               99999.997     99979.450     (R-R)
+
+
+final timing analysis took 0.0264705 seconds.
+	final timing analysis took 0.026 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 148.312 MB, end = 148.312 MB, delta = 0 MB
+	final timing analysis peak virtual memory usage = 176.064 MB
+final timing analysis resident set memory usage: begin = 152.656 MB, end = 152.916 MB, delta = 0.26 MB
+	final timing analysis peak resident set memory usage = 173.068 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Efinity/2018.4/project/blinky/outflow/blinky.interface.csv'.
+Successfully processed interface constraints file "C:/Efinity/2018.4/project/blinky/outflow/blinky.interface.csv".
+Finished writing bitstream file C:/Efinity/2018.4/project/blinky/work_pnr\blinky.lbf.
+Bitstream generation took 0.102274 seconds.
+	Bitstream generation took 0.103 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 148.312 MB, end = 154.48 MB, delta = 6.168 MB
+	Bitstream generation peak virtual memory usage = 176.064 MB
+Bitstream generation resident set memory usage: begin = 152.924 MB, end = 159.332 MB, delta = 6.408 MB
+	Bitstream generation peak resident set memory usage = 173.068 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 6.51132 seconds.
+	The entire flow of EFX_PNR took 6.512 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 8.228 MB, end = 38.292 MB, delta = 30.064 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 176.064 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 8.52 MB, end = 44.24 MB, delta = 35.72 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 173.068 MB

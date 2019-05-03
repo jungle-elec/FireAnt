@@ -1,0 +1,106 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2018.4.285
+[EFX-0000 INFO] Compiled: Jan 27 2019.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+INFO: ***** Beginning Analysis ... *****
+INFO: The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2018.4/project/blinky/blinky.v' (VERI-1482)
+INFO: Analysis took 0.0048773 seconds.
+INFO: 	Analysis took 0.005 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 35.808 MB, end = 36.504 MB, delta = 0.696 MB
+INFO: 	Analysis peak virtual memory usage = 78.788 MB
+INFO: Analysis resident set memory usage: begin = 28.536 MB, end = 30.384 MB, delta = 1.848 MB
+INFO: 	Analysis peak resident set memory usage = 30.388 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(45): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(59): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(75): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(95): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(130): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(190): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(367): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(429): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2018.4/project/blinky/blinky.v(19): INFO: compiling module 'fireant_pll_test' (VERI-1018)
+INFO: Elaboration took 0.0032435 seconds.
+INFO: 	Elaboration took 0.003 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 36.504 MB, end = 36.644 MB, delta = 0.14 MB
+INFO: 	Elaboration peak virtual memory usage = 78.788 MB
+INFO: Elaboration resident set memory usage: begin = 30.4 MB, end = 31.368 MB, delta = 0.968 MB
+INFO: 	Elaboration peak resident set memory usage = 31.372 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(45): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(59): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(75): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(95): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(130): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(190): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(367): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(429): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+INFO: Reading Mapping Library took 0.0051388 seconds.
+INFO: 	Reading Mapping Library took 0.006 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 36.644 MB, end = 37.044 MB, delta = 0.4 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 78.788 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 31.536 MB, end = 31.916 MB, delta = 0.38 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 31.92 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "fireant_pll_test"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fireant_pll_test" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fireant_pll_test" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+Redirected 42 POs from buffers to PIs with the same name.
+Redirected 42 POs from buffers to PIs with the same name.
+[EFX-0000 INFO] LS, strategy: 3, nd: 2, ed: 6, lv: 2
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+-- Writing netlist 'fireant_pll_test' to Verilog file 'C:/Efinity/2018.4/project/blinky/outflow/blinky.map.v' (VDB-1030)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+INFO: VDB Netlist Checker took 0.0133279 seconds.
+INFO: 	VDB Netlist Checker took 0.014 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 43.736 MB, end = 43.736 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 78.788 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 41.072 MB, end = 41.1 MB, delta = 0.028 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 60.784 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	14
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] EFX_FF          : 	15
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

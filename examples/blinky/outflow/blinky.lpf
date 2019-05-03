@@ -1,0 +1,968 @@
+<?xml version="1.0" ?>
+<efxpt:periphery design="blinky" device="T8F81" xmlns:efxpt="http://www.efinixinc.com/peri_device_db" xmlns:efxutil="http://www.efinixinc.com/peri_tool" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/peri_device_db lpf.xsd">
+  <!-- Efinity Logical Peripheral File -->
+  <!-- Version: 2018.4.285 -->
+  <!-- Date: 2019-05-03 17:07 -->
+  <!-- Copyright (C) 2017 - 2018 Efinix Inc. All rights reserved. -->
+  <efxpt:sequence size="61">
+    <efxpt:instance id="GPIOL_00" index="0" type="gpio"/>
+    <efxpt:instance id="GPIOL_01" index="1" type="gpio"/>
+    <efxpt:instance id="GPIOL_02" index="2" type="gpio"/>
+    <efxpt:instance id="GPIOL_03" index="3" type="gpio"/>
+    <efxpt:instance id="GPIOL_04" index="4" type="gpio"/>
+    <efxpt:instance id="GPIOL_05" index="5" type="gpio"/>
+    <efxpt:instance id="GPIOL_06" index="6" type="gpio"/>
+    <efxpt:instance id="GPIOL_07" index="7" type="gpio"/>
+    <efxpt:instance id="GPIOL_08" index="8" type="gpio"/>
+    <efxpt:instance id="GPIOL_09" index="9" type="gpio"/>
+    <efxpt:instance id="GPIOL_10" index="10" type="gpio"/>
+    <efxpt:instance id="GPIOL_11" index="11" type="gpio"/>
+    <efxpt:instance id="GPIOL_12" index="12" type="gpio"/>
+    <efxpt:instance id="GPIOL_13" index="13" type="gpio"/>
+    <efxpt:instance id="GPIOL_14" index="14" type="gpio"/>
+    <efxpt:instance id="GPIOL_15" index="15" type="gpio"/>
+    <efxpt:instance id="GPIOL_16" index="16" type="gpio"/>
+    <efxpt:instance id="GPIOL_17" index="17" type="gpio"/>
+    <efxpt:instance id="GPIOL_18" index="18" type="gpio"/>
+    <efxpt:instance id="GPIOL_19" index="19" type="gpio"/>
+    <efxpt:instance id="GPIOL_20" index="20" type="gpio"/>
+    <efxpt:instance id="GPIOL_21" index="21" type="gpio"/>
+    <efxpt:instance id="PLL_0" index="22" type="pll"/>
+    <efxpt:instance id="GPIOR_00" index="23" type="gpio"/>
+    <efxpt:instance id="GPIOR_01" index="24" type="gpio"/>
+    <efxpt:instance id="GPIOR_02" index="25" type="gpio"/>
+    <efxpt:instance id="GPIOR_03" index="26" type="gpio"/>
+    <efxpt:instance id="GPIOR_04" index="27" type="gpio"/>
+    <efxpt:instance id="GPIOR_05" index="28" type="gpio"/>
+    <efxpt:instance id="GPIOR_06" index="29" type="gpio"/>
+    <efxpt:instance id="GPIOR_07" index="30" type="gpio"/>
+    <efxpt:instance id="GPIOR_08" index="31" type="gpio"/>
+    <efxpt:instance id="GPIOR_09" index="32" type="gpio"/>
+    <efxpt:instance id="GPIOR_10" index="33" type="gpio"/>
+    <efxpt:instance id="GPIOR_11" index="34" type="gpio"/>
+    <efxpt:instance id="GPIOR_12" index="35" type="gpio"/>
+    <efxpt:instance id="GPIOR_13" index="36" type="gpio"/>
+    <efxpt:instance id="GPIOR_14" index="37" type="gpio"/>
+    <efxpt:instance id="GPIOR_15" index="38" type="gpio"/>
+    <efxpt:instance id="GPIOR_16" index="39" type="gpio"/>
+    <efxpt:instance id="GPIOR_17" index="40" type="gpio"/>
+    <efxpt:instance id="GPIOR_18" index="41" type="gpio"/>
+    <efxpt:instance id="GPIOR_19" index="42" type="gpio"/>
+    <efxpt:instance id="GPIOR_20" index="43" type="gpio"/>
+    <efxpt:instance id="GPIOR_21" index="44" type="gpio"/>
+    <efxpt:instance id="GPIOR_22" index="45" type="gpio"/>
+    <efxpt:instance id="GPIOR_23" index="46" type="gpio"/>
+    <efxpt:instance id="GPIOR_24" index="47" type="gpio"/>
+    <efxpt:instance id="GPIOR_25" index="48" type="gpio"/>
+    <efxpt:instance id="GPIOR_26" index="49" type="gpio"/>
+    <efxpt:instance id="GPIOR_27" index="50" type="gpio"/>
+    <efxpt:instance id="GPIOR_28" index="51" type="gpio"/>
+    <efxpt:instance id="GPIOR_29" index="52" type="gpio"/>
+    <efxpt:instance id="GPIOR_30" index="53" type="gpio"/>
+    <efxpt:instance id="GPIOR_31" index="54" type="gpio"/>
+    <efxpt:instance id="GPIOR_32" index="55" type="gpio"/>
+    <efxpt:instance id="GPIOR_34" index="56" type="gpio"/>
+    <efxpt:instance id="GPIOR_35" index="57" type="gpio"/>
+    <efxpt:instance id="GPIOR_36" index="58" type="gpio"/>
+    <efxpt:instance id="GPIOR_37" index="59" type="gpio"/>
+    <efxpt:instance id="OSC_0" index="60" type="osc"/>
+  </efxpt:sequence>
+  <efxpt:block_def bitsize="15" name="gpio" paramsize="10">
+    <efxpt:sequence>
+      <efxpt:parameter index="0" name="PCR_OE_SEL"/>
+      <efxpt:parameter index="1" name="PCR_OUT_SEL"/>
+      <efxpt:parameter index="2" name="PCR_IN_SEL"/>
+      <efxpt:parameter index="3" name="PCR_INPUT_ENABLE"/>
+      <efxpt:parameter index="4" name="PCR_SCHMITT_TRIGGER"/>
+      <efxpt:parameter index="5" name="PCR_PULLUP"/>
+      <efxpt:parameter index="6" name="PCR_PULLDOWN"/>
+      <efxpt:parameter index="7" name="PCR_DS"/>
+      <efxpt:parameter index="8" name="PCR_SLEW_RATE"/>
+      <efxpt:parameter index="9" name="UNUSED"/>
+    </efxpt:sequence>
+    <efxpt:parameter bitsize="2" name="PCR_OE_SEL">
+      <efxpt:value name="BYPASS" setting="01"/>
+      <efxpt:value name="DISABLE" setting="10"/>
+      <efxpt:value name="ENABLE" setting="11"/>
+      <efxpt:value name="REGISTER" setting="00"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="2" name="PCR_OUT_SEL">
+      <efxpt:value name="BYPASS" setting="00"/>
+      <efxpt:value name="CLK_OUTPUT" setting="11"/>
+      <efxpt:value name="INVERT_REGISTER" setting="01"/>
+      <efxpt:value name="REGISTER" setting="10"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_IN_SEL">
+      <efxpt:value name="BYPASS" setting="1"/>
+      <efxpt:value name="REGISTER" setting="0"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_INPUT_ENABLE">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_SCHMITT_TRIGGER">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_PULLUP">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_PULLDOWN">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="2" name="PCR_DS">
+      <efxpt:value name="1" setting="00"/>
+      <efxpt:value name="2" setting="01"/>
+      <efxpt:value name="3" setting="10"/>
+      <efxpt:value name="4" setting="11"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_SLEW_RATE">
+      <efxpt:value name="DISABLE" setting="1"/>
+      <efxpt:value name="ENABLE" setting="0"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="3" name="UNUSED">
+      <efxpt:value name="ENABLE" setting="000"/>
+    </efxpt:parameter>
+  </efxpt:block_def>
+  <efxpt:block_def bitsize="36" name="pll" paramsize="15">
+    <efxpt:sequence>
+      <efxpt:parameter index="0" name="PCR_PLLBYPASS"/>
+      <efxpt:parameter index="1" name="PCR_MCOUNTER"/>
+      <efxpt:parameter index="2" name="PCR_NCOUNTER"/>
+      <efxpt:parameter index="3" name="PCR_USER_EN"/>
+      <efxpt:parameter index="4" name="UNUSED"/>
+      <efxpt:parameter index="5" name="PCR_OCOUNTER"/>
+      <efxpt:parameter index="6" name="PCR_BYPASS0"/>
+      <efxpt:parameter index="7" name="PCR_DIVIDER0"/>
+      <efxpt:parameter index="8" name="PCR_BYPASS1"/>
+      <efxpt:parameter index="9" name="PCR_DIVIDER1"/>
+      <efxpt:parameter index="10" name="PCR_BYPASS2"/>
+      <efxpt:parameter index="11" name="PCR_DIVIDER2"/>
+      <efxpt:parameter index="12" name="PCR_IPEN_PCR_FRZ"/>
+      <efxpt:parameter index="13" name="PCR_IPENABLE"/>
+      <efxpt:parameter index="14" name="PCR_BYPASS_LOCK"/>
+    </efxpt:sequence>
+    <efxpt:parameter bitsize="1" name="PCR_PLLBYPASS">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="8" name="PCR_MCOUNTER">
+      <efxpt:int_value endianness="little" max="255" min="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="4" name="PCR_NCOUNTER">
+      <efxpt:int_value endianness="little" max="15" min="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_USER_EN">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="5" name="UNUSED">
+      <efxpt:value name="ENABLE" setting="00000"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="2" name="PCR_OCOUNTER">
+      <efxpt:value name="1" setting="00"/>
+      <efxpt:value name="2" setting="10"/>
+      <efxpt:value name="4" setting="01"/>
+      <efxpt:value name="8" setting="11"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_BYPASS0">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="3" name="PCR_DIVIDER0">
+      <efxpt:value name="128" setting="011"/>
+      <efxpt:value name="16" setting="110"/>
+      <efxpt:value name="2" setting="000"/>
+      <efxpt:value name="256" setting="111"/>
+      <efxpt:value name="32" setting="001"/>
+      <efxpt:value name="4" setting="100"/>
+      <efxpt:value name="64" setting="101"/>
+      <efxpt:value name="8" setting="010"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_BYPASS1">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="3" name="PCR_DIVIDER1">
+      <efxpt:value name="128" setting="011"/>
+      <efxpt:value name="16" setting="110"/>
+      <efxpt:value name="2" setting="000"/>
+      <efxpt:value name="256" setting="111"/>
+      <efxpt:value name="32" setting="001"/>
+      <efxpt:value name="4" setting="100"/>
+      <efxpt:value name="64" setting="101"/>
+      <efxpt:value name="8" setting="010"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_BYPASS2">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="3" name="PCR_DIVIDER2">
+      <efxpt:value name="128" setting="011"/>
+      <efxpt:value name="16" setting="110"/>
+      <efxpt:value name="2" setting="000"/>
+      <efxpt:value name="256" setting="111"/>
+      <efxpt:value name="32" setting="001"/>
+      <efxpt:value name="4" setting="100"/>
+      <efxpt:value name="64" setting="101"/>
+      <efxpt:value name="8" setting="010"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_IPEN_PCR_FRZ">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_IPENABLE">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_BYPASS_LOCK">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+  </efxpt:block_def>
+  <efxpt:block_def bitsize="2" name="osc" paramsize="2">
+    <efxpt:sequence>
+      <efxpt:parameter index="0" name="PCR_EN_OSC"/>
+      <efxpt:parameter index="1" name="PCR_USR_CTRL"/>
+    </efxpt:sequence>
+    <efxpt:parameter bitsize="1" name="PCR_EN_OSC">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+    <efxpt:parameter bitsize="1" name="PCR_USR_CTRL">
+      <efxpt:value name="DISABLE" setting="0"/>
+      <efxpt:value name="ENABLE" setting="1"/>
+    </efxpt:parameter>
+  </efxpt:block_def>
+  <efxpt:instance id="GPIOL_00" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_01" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_02" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_03" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_04" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_05" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_06" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_07" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_08" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_09" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_10" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_11" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_12" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_13" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_14" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_15" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_16" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_17" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_18" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_19" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_20" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOL_21" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="PLL_0" type="pll">
+    <efxpt:parameter name="PCR_BYPASS0" value="DISABLE"/>
+    <efxpt:parameter name="PCR_BYPASS1" value="DISABLE"/>
+    <efxpt:parameter name="PCR_BYPASS2" value="DISABLE"/>
+    <efxpt:parameter name="PCR_BYPASS_LOCK" value="ENABLE"/>
+    <efxpt:parameter name="PCR_DIVIDER0" value="2"/>
+    <efxpt:parameter name="PCR_DIVIDER1" value="2"/>
+    <efxpt:parameter name="PCR_DIVIDER2" value="2"/>
+    <efxpt:parameter name="PCR_IPENABLE" value="DISABLE"/>
+    <efxpt:parameter name="PCR_IPEN_PCR_FRZ" value="DISABLE"/>
+    <efxpt:parameter name="PCR_MCOUNTER" value="1"/>
+    <efxpt:parameter name="PCR_NCOUNTER" value="1"/>
+    <efxpt:parameter name="PCR_OCOUNTER" value="1"/>
+    <efxpt:parameter name="PCR_PLLBYPASS" value="DISABLE"/>
+    <efxpt:parameter name="PCR_USER_EN" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_00" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_01" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_02" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="1"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="DISABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="ENABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_03" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_04" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_05" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_06" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_07" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_08" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_09" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_10" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_11" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_12" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_13" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_14" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_15" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_16" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_17" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_18" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_19" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_20" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_21" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_22" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_23" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_24" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_25" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_26" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_27" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_28" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_29" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_30" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_31" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_32" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_34" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_35" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_36" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="GPIOR_37" type="gpio">
+    <efxpt:parameter name="PCR_DS" value="2"/>
+    <efxpt:parameter name="PCR_INPUT_ENABLE" value="ENABLE"/>
+    <efxpt:parameter name="PCR_IN_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_OE_SEL" value="DISABLE"/>
+    <efxpt:parameter name="PCR_OUT_SEL" value="BYPASS"/>
+    <efxpt:parameter name="PCR_PULLDOWN" value="DISABLE"/>
+    <efxpt:parameter name="PCR_PULLUP" value="ENABLE"/>
+    <efxpt:parameter name="PCR_SCHMITT_TRIGGER" value="DISABLE"/>
+    <efxpt:parameter name="PCR_SLEW_RATE" value="DISABLE"/>
+    <efxpt:parameter name="UNUSED" value="ENABLE"/>
+  </efxpt:instance>
+  <efxpt:instance id="OSC_0" type="osc">
+    <efxpt:parameter name="PCR_EN_OSC" value="ENABLE"/>
+    <efxpt:parameter name="PCR_USR_CTRL" value="DISABLE"/>
+  </efxpt:instance>
+</efxpt:periphery>

@@ -1,0 +1,58 @@
+Synthesis report for project blinky
+Date : May 3 2019  17:13:43
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : fireant_pll_test
+### ### File List (begin) ### ### ###
+(verilog) C:/Efinity/2018.4/project/blinky/blinky.v
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+HS : Hierarchical pre-synthesis module : "fireant_pll_test"
+@ "C:/Efinity/2018.4/project/blinky/blinky.v (19)"
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 1
+Enable signal <vcc>, number of controlling flip flops: 15
+### ### EFX FF CE enables (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T8F81
+project : blinky
+root : fireant_pll_test
+I : C:/Efinity/2018.4/project/blinky
+output-dir : C:/Efinity/2018.4/project/blinky/outflow
+work-dir : C:/Efinity/2018.4/project/blinky/work_syn
+write-efx-verilog : C:/Efinity/2018.4/project/blinky/outflow/blinky.map.v
+binary-db : C:/Efinity/2018.4/project/blinky/blinky.vdb
+insert-ios : 0
+num_mult18 : -1
+num_ram_5k : -1
+syn_options : mode=speed
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	1
+OUTPUT PORTS    : 	1
+
+EFX_ADD         : 	14
+EFX_LUT4        : 	2
+EFX_FF          : 	15
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 0s
+Elapsed synthesis time : 0s

@@ -1,0 +1,41 @@
+
+Efinity Interface Designer Timing Report
+Version: 2018.4.285
+Date: 2019-05-03 17:07
+
+Copyright (C) 2017 - 2018 Efinix Inc. All rights reserved.
+
+Device: T8F81
+Project: blinky
+Timing Model: C2 (final)
+
+---------- 1. Oscillator Timing Report (begin) ----------
+
++-------+-------------+
+| Clock | Period (ns) |
++-------+-------------+
+|  clk  |    100000   |
++-------+-------------+
+
+---------- Oscillator Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++-----------+----------+----------+
+| Clock Pin | Max (ns) | Min (ns) |
++-----------+----------+----------+
++-----------+----------+----------+
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|      led      |   led    |  GPIO_OUT |  5.360   |  1.914   |
++---------------+----------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------

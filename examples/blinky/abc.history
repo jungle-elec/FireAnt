@@ -1,0 +1,10 @@
+&get -m -n;read_lut -4;&st; &b -d; &if -K 4; &flow2 -b -K 4 -m;&save;&st -a; &syn4; &sweep; &mf -K 6 -A 10 -a -m; &flow3 -K 4;&save;&load; &mfs -M 1000; &put; sweep; lutpack -Q 0 -S 3;
+&synch2 -K 4 -C 500; &if -m       -K 4 -C 8; &put; mfs2 -W 4 -M 500 -C 7000; &get -m; &save
+&st; &sopb -R 10 -C 4
+&st; &sopb -R 10
+&synch2 -K 4 -C 500; &lf -m  -E 5 -K 4 -C 8; &put; mfs2 -W 4 -M 500 -C 7000; &get -m; &save
+&dch -C 500;          &if -m       -K 4 -C 12; &put; mfs2 -W 4 -M 500 -C 7000; &get -m; &save
+&load
+&st; &if -C 8 -K 4; &save; &st; &syn2; &if -C 8 -K 4; &save; &load
+&st; &if -g -K 6; &dch -f; &if -C 8 -K 4; &mfs; &save; &load
+&st; &if -g -K 6; &synch2; &if -C 8 -K 4; &mfs; &save; &load

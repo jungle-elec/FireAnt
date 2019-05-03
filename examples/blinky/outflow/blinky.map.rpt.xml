@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<efx:tool_report xmlns:efx="http://www.efinixinc.com/tool_report" date="TChina Standard Time" project="blinky" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/tool_report tool_report.xsd">
+
+  <efx:group name="Mapped Resource">
+    <efx:group_data name="EFX_ADD" value="14"/>
+    <efx:group_data name="EFX_LUT4" value="2"/>
+    <efx:group_data name="EFX_FF" value="15"/>
+    <efx:group_data name="EFX_GBUFCE" value="1"/>
+  </efx:group>
+
+  <efx:group name="System Resource">
+    <efx:group_data info="runtime" name="synthesis" value="0|0:0:0"/>
+  </efx:group>
+
+</efx:tool_report>

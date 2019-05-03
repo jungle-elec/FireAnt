@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efxpt:design_db name="blinky" device_def="T8F81" location="C:\Efinity\2018.4\project\blinky" version="2018.4.285" last_change_date="Fri May  3 17:07:22 2019" xmlns:efxpt="http://www.efinixinc.com/peri_design_db" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/peri_design_db peri_design_db.xsd ">
+    <efxpt:device_info>
+        <efxpt:iobank_info>
+            <efxpt:iobank name="1A" iostd="3.3 V LVTTL / LVCMOS"/>
+            <efxpt:iobank name="1B" iostd="3.3 V LVTTL / LVCMOS"/>
+            <efxpt:iobank name="1C" iostd="1.1 V"/>
+            <efxpt:iobank name="2A" iostd="3.3 V LVTTL / LVCMOS"/>
+            <efxpt:iobank name="2B" iostd="3.3 V LVTTL / LVCMOS"/>
+        </efxpt:iobank_info>
+    </efxpt:device_info>
+    <efxpt:gpio_info device_def="T8F81">
+        <efxpt:gpio name="led" gpio_def="GPIOR_02" mode="output" bus_name="" is_lvds_gpio="false">
+            <efxpt:output_config name="led" name_ddio_lo="" register_option="none" clock_name="" is_clock_inverted="false" drive_strength="1" is_slew_rate="false" tied_option="none" ddio_type="none"/>
+        </efxpt:gpio>
+        <efxpt:global_unused_config state="input with weak pullup"/>
+    </efxpt:gpio_info>
+    <efxpt:pll_info/>
+    <efxpt:osc_info>
+        <efxpt:osc name="osc_inst1" osc_def="OSC_0" clock_name="clk"/>
+    </efxpt:osc_info>
+    <efxpt:jtag_info/>
+</efxpt:design_db>

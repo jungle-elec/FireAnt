@@ -1,0 +1,94 @@
+
+# Efinity Pinout Report
+# Version: 2018.4.285
+# Date: 2019-05-03 17:07
+
+# Copyright (C) 2017 - 2018 Efinix Inc. All rights reserved.
+
+# Device: T8F81
+# Package status: final
+# Project: blinky
+# Configuration mode: active (x1)
+
+Pin Number,Pin Name,Signal Name,Direction,Bank,I/O Standard,Pull Type,Function
+H5,CONDONE,,Output,1A,3.3 V LVTTL / LVCMOS,,Configuration
+J5,CRESET_N,,Input,1A,3.3 V LVTTL / LVCMOS,,Configuration
+A2,GND,,Power,,,,Ground
+B7,GND,,Power,,,,Ground
+D1,GND,,Power,,,,Ground
+D5,GND,,Power,,,,Ground
+E4,GND,,Power,,,,Ground
+E9,GND,,Power,,,,Ground
+G2,GND,,Power,,,,Ground
+G7,GND,,Power,,,,Ground
+H1,GND,,Power,,,,Ground
+B1,GNDA_PLL,,Power,,,,PLL Ground
+G5,GPIOL_00,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+J4,GPIOL_01_SS_N,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/Configuration
+H4,GPIOL_02_CCK,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/Configuration
+G4,GPIOL_03_CDI4,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+F4,GPIOL_04_CDI0,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/Configuration
+J3,GPIOL_05_CDI5,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+H3,GPIOL_06_CDI1,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/Configuration
+G3,GPIOL_07_CDI6,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+J2,GPIOL_09_CDI2,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+H2,GPIOL_10_CDI7,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+F3,GPIOL_11_CDI3,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+G1,GPIOL_12_CTRL0,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCTRL
+F1,GPIOL_13_CTRL1,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCTRL
+E2,GPIOL_14_CLK0,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCLK
+E1,GPIOL_15_CLK1,,Input,1A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCLK
+C2,GPIOL_16_CLK2,,Input,1B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCLK
+D2,GPIOL_17_CLK3,,Input,1B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCLK
+E3,GPIOL_18_CTRL2,,Input,1B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCTRL
+D3,GPIOL_19_CTRL3,,Input,1B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCTRL
+C3,GPIOL_20_PLLIN,,Input,1B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/PLL_CLKIN
+B3,GPIOL_21_NSTATUS,,Input,1B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/Configuration
+A5,GPIOR_00,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+B5,GPIOR_01,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+C5,GPIOR_02,led,Output,2A,3.3 V LVTTL / LVCMOS,,User IO
+A6,GPIOR_03,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+B6,GPIOR_05,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+C6,GPIOR_06,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+C7,GPIOR_07,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+A8,GPIOR_08,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+A9,GPIOR_10,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+B8,GPIOR_11,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+C8,GPIOR_12,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+D6,GPIOR_13,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+B9,GPIOR_14,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+C9,GPIOR_15_CBUS0,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/Configuration
+D7,GPIOR_16_CTRL7_CBUS1,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCTRL/Configuration
+D8,GPIOR_17_CTRL6_CBUS2,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCTRL/Configuration
+D9,GPIOR_18_CLK7,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCLK
+E8,GPIOR_19_CLK6,,Input,2A,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCLK
+F8,GPIOR_20_CLK5,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCLK
+E7,GPIOR_21_CLK4_CBSEL1,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCLK
+F7,GPIOR_22_CTRL5,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCTRL
+E6,GPIOR_23_CTRL4,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/GCTRL
+F6,GPIOR_24,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+F5,GPIOR_25,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+G9,GPIOR_26_CBSEL0,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+H9,GPIOR_27,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+J9,GPIOR_28,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+J8,GPIOR_30,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+G8,GPIOR_31,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+H8,GPIOR_32,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+J7,GPIOR_34_CSI,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/Configuration
+G6,GPIOR_35_CSO,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/Configuration
+H6,GPIOR_36,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO
+J6,GPIOR_37_TEST_N,,Input,2B,3.3 V LVTTL / LVCMOS,weak pull up,User IO/Configuration
+C4,TCK,,Input,1B,3.3 V LVTTL / LVCMOS,,Configuration
+A3,TDI,,Input,1B,3.3 V LVTTL / LVCMOS,,Configuration
+A4,TDO,,Output,1B,3.3 V LVTTL / LVCMOS,,Configuration
+B4,TMS,,Input,1B,3.3 V LVTTL / LVCMOS,,Configuration
+C1,VCC,,Power,,,,1.1 V VCC Power
+D4,VCC,,Power,,,,1.1 V VCC Power
+E5,VCC,,Power,,,,1.1 V VCC Power
+F2,VCC,,Power,,,,1.1 V VCC Power
+F9,VCC,,Power,,,,1.1 V VCC Power
+A1,VCCA_PLL,,Power,1C,,,1.1 V PLL Power
+J1,VCCIO1A,,Power,1A,3.3 V LVTTL / LVCMOS,,VCCIO Power
+B2,VCCIO1B,,Power,1B,3.3 V LVTTL / LVCMOS,,VCCIO Power
+A7,VCCIO2A,,Power,2A,3.3 V LVTTL / LVCMOS,,VCCIO Power
+H7,VCCIO2B,,Power,2B,3.3 V LVTTL / LVCMOS,,VCCIO Power

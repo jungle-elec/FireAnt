@@ -1,0 +1,24 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2018.4.285 
+Date: Fri May 03 17:13:45 2019
+
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T8F81
+Top-level Entity Name: blinky
+
+---------- Resource Summary (begin) ----------
+Inputs: 1 / 96 (1.04%)
+Outputs: 1 / 113 (0.88%)
+Clocks: 1 / 16 (6.25%)
+Logic Elements: 19 / 7384 (0.26%)
+	LE: LUTs/Adders: 18 / 7384 (0.24%)
+	LE: Registers: 15 / 5280 (0.28%)
+Memory Blocks: 0 / 24 (0.00%)
+Multipliers: 0 / 8 (0.00%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+Elapsed time for placement: 0 hours 0 minutes 3 seconds

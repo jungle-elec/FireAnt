@@ -1,0 +1,4 @@
+[EFX-0006 VERI-ERROR] (C:/Efinity/2018.4/project/blinky/blinky.v 28) 'clk_50m' is not declared (VERI-1128)
+[EFX-0006 VERI-ERROR] (C:/Efinity/2018.4/project/blinky/blinky.v 35) module 'fireant_pll_test' ignored due to previous errors (VERI-1072)
+[EFX-0006 VERI-ERROR] (C:/Efinity/2018.4/project/blinky/blinky.v 28) 'clk_50m' is not declared (VERI-1128)
+[EFX-0006 VERI-ERROR] (C:/Efinity/2018.4/project/blinky/blinky.v 33) module 'fireant_pll_test' ignored due to previous errors (VERI-1072)

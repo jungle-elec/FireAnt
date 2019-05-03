@@ -1,0 +1,98 @@
+
+r
+clk_count[9]~FFeft
+arithmetic"'
+clk_count[9]~FFeft(0)/ff(1)"EFX_FF"%
+	add_8/i10eft(0)/adder(1)"EFX_ADD
+q
+clk_count[5]~FFeft
+arithmetic"'
+clk_count[5]~FFeft(0)/ff(1)"EFX_FF"$
+add_8/i6eft(0)/adder(1)"EFX_ADD
+q
+clk_count[1]~FFeft
+arithmetic"'
+clk_count[1]~FFeft(0)/ff(1)"EFX_FF"$
+add_8/i2eft(0)/adder(1)"EFX_ADD
+F
+clk_count[0]~FFeftlogic"'
+clk_count[0]~FFeft(0)/ff(0)"EFX_FF
+q
+clk_count[4]~FFeft
+arithmetic"'
+clk_count[4]~FFeft(0)/ff(1)"EFX_FF"$
+add_8/i5eft(0)/adder(1)"EFX_ADD
+q
+clk_count[2]~FFeft
+arithmetic"'
+clk_count[2]~FFeft(0)/ff(1)"EFX_FF"$
+add_8/i3eft(0)/adder(1)"EFX_ADD
+q
+clk_count[6]~FFeft
+arithmetic"'
+clk_count[6]~FFeft(0)/ff(1)"EFX_FF"$
+add_8/i7eft(0)/adder(1)"EFX_ADD
+t
+clk_count[12]~FFeft
+arithmetic"(
+clk_count[12]~FFeft(0)/ff(1)"EFX_FF"%
+	add_8/i13eft(0)/adder(1)"EFX_ADD
+q
+clk_count[8]~FFeft
+arithmetic"'
+clk_count[8]~FFeft(0)/ff(1)"EFX_FF"$
+add_8/i9eft(0)/adder(1)"EFX_ADD
+q
+clk_count[3]~FFeft
+arithmetic"'
+clk_count[3]~FFeft(0)/ff(1)"EFX_FF"$
+add_8/i4eft(0)/adder(1)"EFX_ADD
+t
+clk_count[14]~FFeft
+arithmetic"(
+clk_count[14]~FFeft(0)/ff(1)"EFX_FF"%
+	add_8/i15eft(0)/adder(1)"EFX_ADD
+q
+clk_count[7]~FFeft
+arithmetic"'
+clk_count[7]~FFeft(0)/ff(1)"EFX_FF"$
+add_8/i8eft(0)/adder(1)"EFX_ADD
+t
+clk_count[10]~FFeft
+arithmetic"(
+clk_count[10]~FFeft(0)/ff(1)"EFX_FF"%
+	add_8/i11eft(0)/adder(1)"EFX_ADD
+t
+clk_count[13]~FFeft
+arithmetic"(
+clk_count[13]~FFeft(0)/ff(1)"EFX_FF"%
+	add_8/i14eft(0)/adder(1)"EFX_ADD
+t
+clk_count[11]~FFeft
+arithmetic"(
+clk_count[11]~FFeft(0)/ff(1)"EFX_FF"%
+	add_8/i12eft(0)/adder(1)"EFX_ADD
+6
+GNDefllogic"#
+GNDefl(0)/lut4(0)/lut(1)"names
+S
+	CLKBUF__0
+gbuf_block
+gbuf_block".
+	CLKBUF__0gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+@
+LUT__134efllogic"(
+LUT__134efl(0)/lut4(0)/lut(1)"names
+@
+LUT__133efllogic"(
+LUT__133efl(0)/lut4(0)/lut(1)"names
+6
+VCCefllogic"#
+VCCefl(0)/lut4(0)/lut(1)"names
+.
+clkioinpad"
+clkio(0)/inpad(0)"input
+1
+lediooutpad"
+ledio(0)/outpad(1)"output
