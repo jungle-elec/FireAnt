@@ -1,0 +1,17 @@
+
+Efinix FPGA Programmer.
+Version: 2018.4.285 
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+Compiled: Jan 27 2019.
+
+Using source file "C:/Efinity/2018.4/project/counter/work_pnr/counter.lbf"
+Generating HEX programming file for device "T8F81", family "Trion"
+Using periphery source file "C:/Efinity/2018.4/project/counter/outflow/counter.lpf"
+Finished generating "C:/Efinity/2018.4/project/counter/outflow/counter.hex"
+Efinity Programmer took 1.94876 seconds.
+	Efinity Programmer took 1.949 seconds (approximately) in total CPU time.
+Efinity Programmer virtual memory usage: begin = 2.876 MB, end = 5.124 MB, delta = 2.248 MB
+	Efinity Programmer peak virtual memory usage = 15.204 MB
+Efinity Programmer resident set memory usage: begin = 5.912 MB, end = 10.156 MB, delta = 4.244 MB
+	Efinity Programmer peak resident set memory usage = 19.12 MB

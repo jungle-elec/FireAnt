@@ -1,0 +1,155 @@
+
+Efinity Interface Designer Report
+Version: 2018.4.285
+Date: 2019-05-06 16:29
+
+Copyright (C) 2017 - 2018 Efinix Inc. All rights reserved.
+
+Device: T8F81
+Project: counter
+
+Package: 81-ball FBGA (final)
+Timing Model: C2 (final)
+
+---------- Table of Contents (begin) ----------
+   1. Periphery Usage Summary
+   2. Generated Output Files
+   3. I/O Banks Summary
+   4. Global Connection Summary
+   5. GPIO Usage Summary
+   6. PLL Usage Summary
+   7. Oscillator Usage Summary
+   8. JTAG Usage Summary
+---------- Table of Contents (end) ------------
+
+---------- 1. Periphery Usage Summary (begin) ----------
+gpio: 7 / 55 (12.73%)
+jtag: 0 / 2 (0.0%)
+osc: 0 / 1 (0.0%)
+pll: 1 / 1 (100.0%)
+---------- Periphery Usage Summary (end) ----------
+
+---------- 2. Generated Output Files (begin) ----------
+Interface Configuration: counter.interface.csv
+Peripheral Block Configuration: counter.lpf
+Pinout Report: counter.pinout.csv
+Timing Report: counter.pt_timing.rpt
+Timing SDC Template: counter.pt.sdc
+Verilog Template: counter_template.v
+---------- Generated Output Files (end) ----------
+
+---------- 3. I/O Banks Summary (begin) ----------
+
++----------+----------------------+
+| I/O Bank |     I/O Standard     |
++----------+----------------------+
+|    1A    | 3.3 V LVTTL / LVCMOS |
+|    1B    | 3.3 V LVTTL / LVCMOS |
+|    1C    |        1.1 V         |
+|    2A    | 3.3 V LVTTL / LVCMOS |
+|    2B    | 3.3 V LVTTL / LVCMOS |
++----------+----------------------+
+
+---------- I/O Banks Summary (end) ----------
+
+---------- 4. Global Connection Summary (begin) ----------
+
++-------------------+---------------+------+
+|      Pin Name     |    Resource   | Type |
++-------------------+---------------+------+
+| pll_inst1_CLKOUT0 | PLL_0.CLKOUT0 | GCLK |
++-------------------+---------------+------+
+
+---------- Global Connection Summary (end) ----------
+
+---------- 5. GPIO Usage Summary (begin) ----------
+
+Global Unused Setting: input with weak pullup
+
++-----------------+----------+--------+----------+----------+----------------+-------------+
+|  Instance Name  | Resource |  Mode  | Register | I/O Bank |    Pad Name    | Package Pin |
++-----------------+----------+--------+----------+----------+----------------+-------------+
+|      BTN[0]     | GPIOR_28 | input  |          |    2B    |    GPIOR_28    |      J9     |
+|      BTN[1]     | GPIOR_30 | input  |          |    2B    |    GPIOR_30    |      J8     |
+|      LED[0]     | GPIOR_02 | output |          |    2A    |    GPIOR_02    |      C5     |
+|      LED[1]     | GPIOR_05 | output |          |    2A    |    GPIOR_05    |      B6     |
+|      LED[2]     | GPIOR_07 | output |          |    2A    |    GPIOR_07    |      C7     |
+|      LED[3]     | GPIOR_10 | output |          |    2A    |    GPIOR_10    |      A9     |
+| pll_inst1_CLKIN | GPIOL_20 | input  |          |    1B    | GPIOL_20_PLLIN |      C3     |
++-----------------+----------+--------+----------+----------+----------------+-------------+
+
+
+Input GPIO Configuration:
+=========================
+
++-----------------+-----------+---------------------+-----------------+--------------+-----------------+
+|  Instance Name  | Input Pin | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger |
++-----------------+-----------+---------------------+-----------------+--------------+-----------------+
+|      BTN[0]     |   BTN[0]  |                     |                 | weak pullup  |     Disable     |
+|      BTN[1]     |   BTN[1]  |                     |                 | weak pullup  |     Disable     |
+| pll_inst1_CLKIN |           |   pll_inst1_CLKIN   |                 |     none     |     Disable     |
++-----------------+-----------+---------------------+-----------------+--------------+-----------------+
+
+Output GPIO Configuration:
+==========================
+
++---------------+------------+------------------+----------------+-----------+
+| Instance Name | Output Pin | Output Clock Pin | Drive Strength | Slew Rate |
++---------------+------------+------------------+----------------+-----------+
+|     LED[0]    |   LED[0]   |                  |       1        |  Disable  |
+|     LED[1]    |   LED[1]   |                  |       1        |  Disable  |
+|     LED[2]    |   LED[2]   |                  |       1        |  Disable  |
+|     LED[3]    |   LED[3]   |                  |       1        |  Disable  |
++---------------+------------+------------------+----------------+-----------+
+
+---------- GPIO Usage Summary (end) ----------
+
+---------- 6. PLL Usage Summary (begin) ----------
+
+Instance Name                 : pll_inst1
+Resource                      : PLL_0
+Reference Clock Resource      : GPIOL_20
+Reset Pin Name                : pll_inst1_RSTN
+Locked Pin Name               : pll_inst1_LOCKED
+Reference Clock Frequency     : 33.33 MHz
+Reference Clock Period        : 30.00 ns
+Multiplier (M)                : 24
+Pre-Divider (N)               : 1
+VCO Frequency                 : 799.92 MHz
+Post-Divider (O)              : 1
+PLL Frequency                 : 799.92 MHz
+
+Output Clock 0
+Clock Pin Name                : pll_inst1_CLKOUT0
+Output Divider                : 16
+Output Frequency              : 49.99 MHz
+Output Period                 : 20.00 ns
+
+Frequency calculations:
+	VCO = REFCLK * (M/N)
+	    = 33.33 MHz * (24/1)
+	    = 799.92 MHz
+	PLL = VCO / O
+	    = 799.92 MHz / 1
+	    = 799.92 MHz
+
+	CLKOUT0 = PLL / CLKOUT0_DIV
+	        = 799.92 MHz / 16
+	        = 49.99 MHz
+
+SDC Constraints:
+	create_clock -period 20.00 pll_inst1_CLKOUT0
+
+---------- PLL Usage Summary (end) ----------
+
+---------- 7. Oscillator Usage Summary (begin) ----------
+
+No Oscillator was configured
+
+---------- Oscillator Usage Summary (end) ----------
+
+---------- 8. JTAG Usage Summary (begin) ----------
+
+No JTAG was configured
+
+---------- JTAG Usage Summary (end) ----------

@@ -1,0 +1,46 @@
+
+Efinity Interface Designer Timing Report
+Version: 2018.4.285
+Date: 2019-05-06 16:29
+
+Copyright (C) 2017 - 2018 Efinix Inc. All rights reserved.
+
+Device: T8F81
+Project: counter
+Timing Model: C2 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++-------------------+-------------+
+|       Clock       | Period (ns) |
++-------------------+-------------+
+| pll_inst1_CLKOUT0 |    20.00    |
++-------------------+-------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++-----------+----------+----------+
+| Clock Pin | Max (ns) | Min (ns) |
++-----------+----------+----------+
++-----------+----------+----------+
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|     BTN[0]    |  BTN[0]  |  GPIO_IN  |  1.954   |  0.698   |
+|     BTN[1]    |  BTN[1]  |  GPIO_IN  |  1.954   |  0.698   |
+|     LED[0]    |  LED[0]  |  GPIO_OUT |  5.360   |  1.914   |
+|     LED[1]    |  LED[1]  |  GPIO_OUT |  5.360   |  1.914   |
+|     LED[2]    |  LED[2]  |  GPIO_OUT |  5.360   |  1.914   |
+|     LED[3]    |  LED[3]  |  GPIO_OUT |  5.360   |  1.914   |
++---------------+----------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------

@@ -1,0 +1,81 @@
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 79) empty statement in sequential block (VERI-1988)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 101) empty statement in sequential block (VERI-1988)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 101) empty statement in sequential block (VERI-1988)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 102) empty statement in sequential block (VERI-1988)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 56) empty statement in sequential block (VERI-1988)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 47) expression size 32 truncated to fit in target size 1 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 47) expression size 32 truncated to fit in target size 1 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 47) expression size 32 truncated to fit in target size 1 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[4]' wire 'LED[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'LED[2]' wire 'LED[2]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[4]'.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[2]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[4]' wire 'LED[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'LED[2]' wire 'LED[2]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[4]'.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[2]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'LED[2]' wire 'LED[2]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[2]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'LED[2]' wire 'LED[2]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[2]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 53) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 96) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 100) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 108) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 109) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 112) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 96) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 100) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 108) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 109) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 112) extra semicolon is not allowed here in this dialect. Use SystemVerilog mode (VERI-2050)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 55) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 55) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 55) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 77) expression size 7 truncated to fit in target size 6 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 101) expression size 7 truncated to fit in target size 6 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'LED[3]' wire 'LED[3]' is not driven.
+[EFX-0201 WARNING] (C:/Efinity/2018.4/project/counter/counter.v 25) Re-wiring to GND non-driven net 'LED[3]'.
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 55) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 71) expression size 7 truncated to fit in target size 6 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 93) expression size 7 truncated to fit in target size 6 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 55) expression size 32 truncated to fit in target size 27 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 71) expression size 7 truncated to fit in target size 6 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 94) expression size 7 truncated to fit in target size 6 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 55) expression size 32 truncated to fit in target size 30 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 71) expression size 7 truncated to fit in target size 6 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 94) expression size 7 truncated to fit in target size 6 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 55) expression size 32 truncated to fit in target size 30 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 71) expression size 7 truncated to fit in target size 6 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/counter/counter.v 94) expression size 7 truncated to fit in target size 6 (VERI-1209)

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<efx:tool_report xmlns:efx="http://www.efinixinc.com/tool_report" date="TChina Standard Time" project="counter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/tool_report tool_report.xsd">
+
+  <efx:group name="Core Resource">
+    <efx:group_data name="Logic Elements" value="0.98%"/>
+    <efx:group_data name="Memory Blocks" value="0.00%"/>
+    <efx:group_data name="Multipliers" value="0.00%"/>
+  </efx:group>
+
+  <efx:group name="System Resource">
+    <efx:group_data info="runtime" name="packing" value="0|0:0:0"/>
+    <efx:group_data info="runtime" name="placement" value="0|0:0:3"/>
+    <efx:group_data info="runtime" name="routing" value="0|0:0:0"/>
+    <efx:group_data info="peak_rr" name="Peak RSS" value="172.348 MB"/>
+  </efx:group>
+
+  <efx:group name="Timing">
+    <efx:group_data name="Least Slack" value="-6.446 ns"/>
+    <efx:group_data name="counter[16]" value="62.353 MHz"/>
+    <efx:group_data name="pll_inst1_CLKOUT0" value="140.007 MHz"/>
+  </efx:group>
+
+</efx:tool_report>

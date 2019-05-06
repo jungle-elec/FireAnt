@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2018.4.285 
+Date: Mon May 06 17:23:33 2019
+
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T8F81
+Top-level Entity Name: counter
+Elapsed time for routing: 0 hours 0 minutes 0 seconds
+Elapsed time for entire flow: 0 hours 0 minutes 7 seconds

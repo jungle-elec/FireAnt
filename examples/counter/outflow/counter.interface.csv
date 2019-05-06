@@ -1,0 +1,17 @@
+
+# Efinity Interface Configuration
+# Version: 2018.4.285
+# Date: 2019-05-06 16:29
+
+# Copyright (C) 2017 - 2018 Efinix Inc. All rights reserved.
+
+# [required] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+input, 78, 47, 1, __bypass__, BTN[0]
+input, 78, 40, 1, __bypass__, BTN[1]
+output, 78, 145, 0, __bypass__, LED[0]
+output, 78, 137, 0, __bypass__, LED[1]
+output, 78, 127, 0, __bypass__, LED[2]
+output, 78, 115, 0, __bypass__, LED[3]
+input, 0, 83, 1, __bypass__, pll_inst1_CLKOUT0
+input, 0, 161, 1, __bypass__, pll_inst1_LOCKED
+required output, 0, 161, 0, __bypass__, pll_inst1_RSTN

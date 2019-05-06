@@ -1,0 +1,887 @@
+cell { name: "counter[22]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[12]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[25]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[0]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[8]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[20]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "btn0_debounce[5]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "btn1_debounce[5]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "btn0_debounce[0]~FF" type: "eft" mode: "logic_ff" }
+cell { name: "btn0_debounce[3]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[21]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[6]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "btn1_debounce[4]~FF" type: "eft" mode: "logic_ff" }
+cell { name: "counter[10]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[18]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[14]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[19]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "shift_counter[2]~FF" type: "eft" mode: "logic_ff" }
+cell { name: "btn0_debounce[4]~FF" type: "eft" mode: "logic_ff" }
+cell { name: "btn0_debounce[2]~FF" type: "eft" mode: "logic_ff" }
+cell { name: "counter[28]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "btn1_debounce[0]~FF" type: "eft" mode: "logic_ff" }
+cell { name: "counter[2]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "btn0_debounce[1]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[26]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[29]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[5]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[1]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[7]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "btn1_debounce[3]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[9]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[24]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[11]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "btn1_debounce[2]~FF" type: "eft" mode: "logic_ff" }
+cell { name: "counter[13]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[17]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[15]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[23]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "shift_counter[1]~FF" type: "eft" mode: "logic_ff" }
+cell { name: "counter[16]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "btn1_debounce[1]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[27]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "shift_counter[0]~FF" type: "eft" mode: "logic_ff" }
+cell { name: "counter[3]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "counter[4]~FF" type: "eft" mode: "arithmetic_ff" }
+cell { name: "LUT__415" type: "efl" mode: "logic" }
+cell { name: "pll_inst1_RSTN" type: "io" mode: "outpad" fixed {x: 0 y: 161 k: 0} }
+cell { name: "LUT__417" type: "efl" mode: "logic" }
+cell { name: "LUT__424" type: "efl" mode: "logic" }
+cell { name: "LUT__426" type: "efl" mode: "logic" }
+cell { name: "LUT__549" type: "efl" mode: "logic" }
+cell { name: "LUT__413" type: "efl" mode: "logic" }
+cell { name: "LUT__412" type: "efl" mode: "logic" }
+cell { name: "LUT__409" type: "efl" mode: "logic" }
+cell { name: "LUT__408" type: "efl" mode: "logic" }
+cell { name: "LUT__407" type: "efl" mode: "logic" }
+cell { name: "LUT__405" type: "efl" mode: "logic" }
+cell { name: "LUT__404" type: "efl" mode: "logic" }
+cell { name: "LUT__403" type: "efl" mode: "logic" }
+cell { name: "LUT__401" type: "efl" mode: "logic" }
+cell { name: "LUT__400" type: "efl" mode: "logic" }
+cell { name: "BTN[0]" type: "io" mode: "inpad" fixed {x: 78 y: 47 k: 1} }
+cell { name: "LED[1]" type: "io" mode: "outpad" fixed {x: 78 y: 137 k: 0} }
+cell { name: "add_14/i5" type: "eft" mode: "arithmetic" }
+cell { name: "add_25/i3" type: "eft" mode: "arithmetic" }
+cell { name: "add_25/i5" type: "eft" mode: "arithmetic" }
+cell { name: "VCC" type: "efl" mode: "logic" }
+cell { name: "add_14/i3" type: "eft" mode: "arithmetic" }
+cell { name: "GND" type: "efl" mode: "logic" }
+cell { name: "BTN[1]" type: "io" mode: "inpad" fixed {x: 78 y: 40 k: 1} }
+cell { name: "LUT__402" type: "efl" mode: "logic" }
+cell { name: "LUT__406" type: "efl" mode: "logic" }
+cell { name: "pll_inst1_CLKOUT0" type: "io" mode: "inpad" fixed {x: 0 y: 83 k: 1} }
+cell { name: "LUT__414" type: "efl" mode: "logic" }
+cell { name: "LUT__425" type: "efl" mode: "logic" }
+cell { name: "LUT__427" type: "efl" mode: "logic" }
+cell { name: "LUT__399" type: "efl" mode: "logic" }
+cell { name: "CLKBUF__1" type: "gbuf_block" mode: "gbuf_block" fixed {x: 1 y: 83 k: 0} }
+cell { name: "CLKBUF__0" type: "gbuf_block" mode: "gbuf_block" fixed {x: 1 y: 78 k: 0} }
+cell { name: "pll_inst1_LOCKED" type: "io" mode: "inpad" fixed {x: 0 y: 161 k: 1} }
+cell { name: "LED[0]" type: "io" mode: "outpad" fixed {x: 78 y: 145 k: 0} }
+cell { name: "LED[2]" type: "io" mode: "outpad" fixed {x: 78 y: 127 k: 0} }
+cell { name: "LED[3]" type: "io" mode: "outpad" fixed {x: 78 y: 115 k: 0} }
+net {
+	name: "counter[22]"
+	terminal	{ cell: "counter[22]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[22]~FF" port: "I[0]" }
+ }
+net {
+	name: "gnd"
+	type: CONSTANT
+	terminal	{ cell: "GND" port: "O" }
+	terminal	{ cell: "counter[22]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[22]~FF" port: "RE" }
+	terminal	{ cell: "counter[12]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[12]~FF" port: "RE" }
+	terminal	{ cell: "counter[25]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[25]~FF" port: "RE" }
+	terminal	{ cell: "counter[0]~FF" port: "RE" }
+	terminal	{ cell: "counter[8]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[8]~FF" port: "RE" }
+	terminal	{ cell: "counter[20]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[20]~FF" port: "RE" }
+	terminal	{ cell: "btn0_debounce[5]~FF" port: "I[1]" }
+	terminal	{ cell: "btn1_debounce[5]~FF" port: "I[1]" }
+	terminal	{ cell: "btn0_debounce[3]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[21]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[21]~FF" port: "RE" }
+	terminal	{ cell: "counter[6]~FF" port: "RE" }
+	terminal	{ cell: "counter[10]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[10]~FF" port: "RE" }
+	terminal	{ cell: "counter[18]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[18]~FF" port: "RE" }
+	terminal	{ cell: "counter[14]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[14]~FF" port: "RE" }
+	terminal	{ cell: "counter[19]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[19]~FF" port: "RE" }
+	terminal	{ cell: "shift_counter[2]~FF" port: "RE" }
+	terminal	{ cell: "counter[28]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[28]~FF" port: "RE" }
+	terminal	{ cell: "counter[2]~FF" port: "RE" }
+	terminal	{ cell: "counter[26]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[26]~FF" port: "RE" }
+	terminal	{ cell: "counter[29]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[29]~FF" port: "RE" }
+	terminal	{ cell: "counter[5]~FF" port: "RE" }
+	terminal	{ cell: "counter[1]~FF" port: "RE" }
+	terminal	{ cell: "counter[7]~FF" port: "RE" }
+	terminal	{ cell: "btn1_debounce[3]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[9]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[9]~FF" port: "RE" }
+	terminal	{ cell: "counter[24]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[24]~FF" port: "RE" }
+	terminal	{ cell: "counter[11]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[11]~FF" port: "RE" }
+	terminal	{ cell: "counter[13]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[13]~FF" port: "RE" }
+	terminal	{ cell: "counter[17]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[17]~FF" port: "RE" }
+	terminal	{ cell: "counter[15]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[15]~FF" port: "RE" }
+	terminal	{ cell: "counter[23]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[23]~FF" port: "RE" }
+	terminal	{ cell: "shift_counter[1]~FF" port: "RE" }
+	terminal	{ cell: "counter[16]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[16]~FF" port: "RE" }
+	terminal	{ cell: "counter[27]~FF" port: "I[1]" }
+	terminal	{ cell: "counter[27]~FF" port: "RE" }
+	terminal	{ cell: "shift_counter[0]~FF" port: "RE" }
+	terminal	{ cell: "counter[3]~FF" port: "RE" }
+	terminal	{ cell: "counter[4]~FF" port: "RE" }
+	terminal	{ cell: "add_14/i5" port: "I[1]" }
+	terminal	{ cell: "add_25/i3" port: "I[1]" }
+	terminal	{ cell: "add_25/i5" port: "I[1]" }
+	terminal	{ cell: "add_14/i3" port: "I[1]" }
+ }
+net {
+	name: "n35"
+	terminal	{ cell: "counter[21]~FF" port: "cout" }
+	terminal	{ cell: "counter[22]~FF" port: "cin" }
+ }
+net {
+	name: "pll_inst1_LOCKED"
+	terminal	{ cell: "pll_inst1_LOCKED" port: "inpad" }
+	terminal	{ cell: "counter[22]~FF" port: "CE" }
+	terminal	{ cell: "counter[12]~FF" port: "CE" }
+	terminal	{ cell: "counter[25]~FF" port: "CE" }
+	terminal	{ cell: "counter[0]~FF" port: "CE" }
+	terminal	{ cell: "counter[8]~FF" port: "CE" }
+	terminal	{ cell: "counter[20]~FF" port: "CE" }
+	terminal	{ cell: "counter[21]~FF" port: "CE" }
+	terminal	{ cell: "counter[6]~FF" port: "CE" }
+	terminal	{ cell: "counter[10]~FF" port: "CE" }
+	terminal	{ cell: "counter[18]~FF" port: "CE" }
+	terminal	{ cell: "counter[14]~FF" port: "CE" }
+	terminal	{ cell: "counter[19]~FF" port: "CE" }
+	terminal	{ cell: "counter[28]~FF" port: "CE" }
+	terminal	{ cell: "counter[2]~FF" port: "CE" }
+	terminal	{ cell: "counter[26]~FF" port: "CE" }
+	terminal	{ cell: "counter[29]~FF" port: "CE" }
+	terminal	{ cell: "counter[5]~FF" port: "CE" }
+	terminal	{ cell: "counter[1]~FF" port: "CE" }
+	terminal	{ cell: "counter[7]~FF" port: "CE" }
+	terminal	{ cell: "counter[9]~FF" port: "CE" }
+	terminal	{ cell: "counter[24]~FF" port: "CE" }
+	terminal	{ cell: "counter[11]~FF" port: "CE" }
+	terminal	{ cell: "counter[13]~FF" port: "CE" }
+	terminal	{ cell: "counter[17]~FF" port: "CE" }
+	terminal	{ cell: "counter[15]~FF" port: "CE" }
+	terminal	{ cell: "counter[23]~FF" port: "CE" }
+	terminal	{ cell: "counter[16]~FF" port: "CE" }
+	terminal	{ cell: "counter[27]~FF" port: "CE" }
+	terminal	{ cell: "counter[3]~FF" port: "CE" }
+	terminal	{ cell: "counter[4]~FF" port: "CE" }
+ }
+net {
+	name: "n33"
+	terminal	{ cell: "counter[22]~FF" port: "cout" }
+	terminal	{ cell: "counter[23]~FF" port: "cin" }
+ }
+net {
+	name: "pll_inst1_CLKOUT0~O"
+	type: GLOBAL_CLOCK
+	terminal	{ cell: "CLKBUF__1" port: "clkout" }
+	terminal	{ cell: "counter[22]~FF" port: "clk" }
+	terminal	{ cell: "counter[12]~FF" port: "clk" }
+	terminal	{ cell: "counter[25]~FF" port: "clk" }
+	terminal	{ cell: "counter[0]~FF" port: "clk" }
+	terminal	{ cell: "counter[8]~FF" port: "clk" }
+	terminal	{ cell: "counter[20]~FF" port: "clk" }
+	terminal	{ cell: "counter[21]~FF" port: "clk" }
+	terminal	{ cell: "counter[6]~FF" port: "clk" }
+	terminal	{ cell: "counter[10]~FF" port: "clk" }
+	terminal	{ cell: "counter[18]~FF" port: "clk" }
+	terminal	{ cell: "counter[14]~FF" port: "clk" }
+	terminal	{ cell: "counter[19]~FF" port: "clk" }
+	terminal	{ cell: "counter[28]~FF" port: "clk" }
+	terminal	{ cell: "counter[2]~FF" port: "clk" }
+	terminal	{ cell: "counter[26]~FF" port: "clk" }
+	terminal	{ cell: "counter[29]~FF" port: "clk" }
+	terminal	{ cell: "counter[5]~FF" port: "clk" }
+	terminal	{ cell: "counter[1]~FF" port: "clk" }
+	terminal	{ cell: "counter[7]~FF" port: "clk" }
+	terminal	{ cell: "counter[9]~FF" port: "clk" }
+	terminal	{ cell: "counter[24]~FF" port: "clk" }
+	terminal	{ cell: "counter[11]~FF" port: "clk" }
+	terminal	{ cell: "counter[13]~FF" port: "clk" }
+	terminal	{ cell: "counter[17]~FF" port: "clk" }
+	terminal	{ cell: "counter[15]~FF" port: "clk" }
+	terminal	{ cell: "counter[23]~FF" port: "clk" }
+	terminal	{ cell: "counter[16]~FF" port: "clk" }
+	terminal	{ cell: "counter[27]~FF" port: "clk" }
+	terminal	{ cell: "counter[3]~FF" port: "clk" }
+	terminal	{ cell: "counter[4]~FF" port: "clk" }
+ }
+net {
+	name: "counter[12]"
+	terminal	{ cell: "counter[12]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[12]~FF" port: "I[0]" }
+ }
+net {
+	name: "n55"
+	terminal	{ cell: "counter[11]~FF" port: "cout" }
+	terminal	{ cell: "counter[12]~FF" port: "cin" }
+ }
+net {
+	name: "n53"
+	terminal	{ cell: "counter[12]~FF" port: "cout" }
+	terminal	{ cell: "counter[13]~FF" port: "cin" }
+ }
+net {
+	name: "counter[25]"
+	terminal	{ cell: "counter[25]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[25]~FF" port: "I[0]" }
+ }
+net {
+	name: "n29"
+	terminal	{ cell: "counter[24]~FF" port: "cout" }
+	terminal	{ cell: "counter[25]~FF" port: "cin" }
+ }
+net {
+	name: "n27"
+	terminal	{ cell: "counter[25]~FF" port: "cout" }
+	terminal	{ cell: "counter[26]~FF" port: "cin" }
+ }
+net {
+	name: "counter[0]"
+	terminal	{ cell: "counter[0]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[0]~FF" port: "I[0]" }
+ }
+net {
+	name: "n204"
+	terminal	{ cell: "LUT__409" port: "O" }
+	terminal	{ cell: "counter[0]~FF" port: "I[1]" }
+ }
+net {
+	name: "n67"
+	terminal	{ cell: "counter[0]~FF" port: "cout" }
+	terminal	{ cell: "counter[1]~FF" port: "cin" }
+ }
+net {
+	name: "counter[8]"
+	terminal	{ cell: "counter[8]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[8]~FF" port: "I[0]" }
+ }
+net {
+	name: "n9"
+	terminal	{ cell: "counter[7]~FF" port: "cout" }
+	terminal	{ cell: "counter[8]~FF" port: "cin" }
+ }
+net {
+	name: "n61"
+	terminal	{ cell: "counter[8]~FF" port: "cout" }
+	terminal	{ cell: "counter[9]~FF" port: "cin" }
+ }
+net {
+	name: "counter[20]"
+	terminal	{ cell: "counter[20]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[20]~FF" port: "I[0]" }
+ }
+net {
+	name: "n39"
+	terminal	{ cell: "counter[19]~FF" port: "cout" }
+	terminal	{ cell: "counter[20]~FF" port: "cin" }
+ }
+net {
+	name: "n37"
+	terminal	{ cell: "counter[20]~FF" port: "cout" }
+	terminal	{ cell: "counter[21]~FF" port: "cin" }
+ }
+net {
+	name: "btn0_debounce[5]"
+	terminal	{ cell: "btn0_debounce[5]~FF" port: "O_seq" }
+	terminal	{ cell: "btn0_debounce[5]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__399" port: "I[3]" }
+ }
+net {
+	name: "n85"
+	terminal	{ cell: "add_14/i5" port: "cout" }
+	terminal	{ cell: "btn0_debounce[5]~FF" port: "cin" }
+ }
+net {
+	name: "vcc"
+	type: CONSTANT
+	terminal	{ cell: "VCC" port: "O" }
+	terminal	{ cell: "btn0_debounce[5]~FF" port: "CE" }
+	terminal	{ cell: "btn1_debounce[5]~FF" port: "CE" }
+	terminal	{ cell: "btn0_debounce[0]~FF" port: "CE" }
+	terminal	{ cell: "btn0_debounce[3]~FF" port: "CE" }
+	terminal	{ cell: "btn1_debounce[4]~FF" port: "CE" }
+	terminal	{ cell: "btn0_debounce[4]~FF" port: "CE" }
+	terminal	{ cell: "btn0_debounce[2]~FF" port: "CE" }
+	terminal	{ cell: "btn1_debounce[0]~FF" port: "CE" }
+	terminal	{ cell: "btn0_debounce[1]~FF" port: "CE" }
+	terminal	{ cell: "btn1_debounce[3]~FF" port: "CE" }
+	terminal	{ cell: "btn1_debounce[2]~FF" port: "CE" }
+	terminal	{ cell: "btn1_debounce[1]~FF" port: "CE" }
+	terminal	{ cell: "pll_inst1_RSTN" port: "outpad" }
+	terminal	{ cell: "CLKBUF__1" port: "I[0]" }
+	terminal	{ cell: "CLKBUF__0" port: "I[0]" }
+ }
+net {
+	name: "n135"
+	terminal	{ cell: "LUT__400" port: "O" }
+	terminal	{ cell: "btn0_debounce[5]~FF" port: "RE" }
+	terminal	{ cell: "btn0_debounce[0]~FF" port: "RE" }
+	terminal	{ cell: "btn0_debounce[3]~FF" port: "RE" }
+	terminal	{ cell: "btn0_debounce[1]~FF" port: "RE" }
+ }
+net {
+	name: "counter[16]~O"
+	type: GLOBAL_CLOCK
+	terminal	{ cell: "CLKBUF__0" port: "clkout" }
+	terminal	{ cell: "btn0_debounce[5]~FF" port: "clk" }
+	terminal	{ cell: "btn1_debounce[5]~FF" port: "clk" }
+	terminal	{ cell: "btn0_debounce[0]~FF" port: "clk" }
+	terminal	{ cell: "btn0_debounce[3]~FF" port: "clk" }
+	terminal	{ cell: "btn1_debounce[4]~FF" port: "clk" }
+	terminal	{ cell: "shift_counter[2]~FF" port: "clk" }
+	terminal	{ cell: "btn0_debounce[4]~FF" port: "clk" }
+	terminal	{ cell: "btn0_debounce[2]~FF" port: "clk" }
+	terminal	{ cell: "btn1_debounce[0]~FF" port: "clk" }
+	terminal	{ cell: "btn0_debounce[1]~FF" port: "clk" }
+	terminal	{ cell: "btn1_debounce[3]~FF" port: "clk" }
+	terminal	{ cell: "btn1_debounce[2]~FF" port: "clk" }
+	terminal	{ cell: "shift_counter[1]~FF" port: "clk" }
+	terminal	{ cell: "btn1_debounce[1]~FF" port: "clk" }
+	terminal	{ cell: "shift_counter[0]~FF" port: "clk" }
+ }
+net {
+	name: "btn1_debounce[5]"
+	terminal	{ cell: "btn1_debounce[5]~FF" port: "O_seq" }
+	terminal	{ cell: "btn1_debounce[5]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__404" port: "I[3]" }
+ }
+net {
+	name: "n81"
+	terminal	{ cell: "add_25/i5" port: "cout" }
+	terminal	{ cell: "btn1_debounce[5]~FF" port: "cin" }
+ }
+net {
+	name: "n150"
+	terminal	{ cell: "LUT__406" port: "O" }
+	terminal	{ cell: "btn1_debounce[5]~FF" port: "RE" }
+	terminal	{ cell: "btn1_debounce[0]~FF" port: "RE" }
+	terminal	{ cell: "btn1_debounce[3]~FF" port: "RE" }
+	terminal	{ cell: "btn1_debounce[1]~FF" port: "RE" }
+ }
+net {
+	name: "btn0_debounce[0]"
+	terminal	{ cell: "btn0_debounce[0]~FF" port: "O_seq" }
+	terminal	{ cell: "btn0_debounce[0]~FF" port: "I[1]" }
+	terminal	{ cell: "btn0_debounce[1]~FF" port: "I[1]" }
+ }
+net {
+	name: "btn0_debounce[3]"
+	terminal	{ cell: "btn0_debounce[3]~FF" port: "O_seq" }
+	terminal	{ cell: "btn0_debounce[3]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__399" port: "I[0]" }
+ }
+net {
+	name: "n87"
+	terminal	{ cell: "add_14/i3" port: "cout" }
+	terminal	{ cell: "btn0_debounce[3]~FF" port: "cin" }
+ }
+net {
+	name: "n90"
+	terminal	{ cell: "btn0_debounce[3]~FF" port: "cout" }
+	terminal	{ cell: "add_14/i5" port: "cin" }
+ }
+net {
+	name: "counter[21]"
+	terminal	{ cell: "counter[21]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[21]~FF" port: "I[0]" }
+ }
+net {
+	name: "counter[6]"
+	terminal	{ cell: "counter[6]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[6]~FF" port: "I[0]" }
+ }
+net {
+	name: "n142"
+	terminal	{ cell: "LUT__402" port: "O" }
+	terminal	{ cell: "counter[6]~FF" port: "I[1]" }
+ }
+net {
+	name: "n15"
+	terminal	{ cell: "counter[5]~FF" port: "cout" }
+	terminal	{ cell: "counter[6]~FF" port: "cin" }
+ }
+net {
+	name: "n13"
+	terminal	{ cell: "counter[6]~FF" port: "cout" }
+	terminal	{ cell: "counter[7]~FF" port: "cin" }
+ }
+net {
+	name: "n80"
+	terminal	{ cell: "add_25/i5" port: "O" }
+	terminal	{ cell: "btn1_debounce[4]~FF" port: "I[0]" }
+ }
+net {
+	name: "n271"
+	terminal	{ cell: "LUT__404" port: "O" }
+	terminal	{ cell: "btn1_debounce[4]~FF" port: "I[1]" }
+	terminal	{ cell: "shift_counter[2]~FF" port: "I[1]" }
+	terminal	{ cell: "btn1_debounce[2]~FF" port: "I[1]" }
+	terminal	{ cell: "shift_counter[1]~FF" port: "I[2]" }
+	terminal	{ cell: "shift_counter[0]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__405" port: "I[0]" }
+	terminal	{ cell: "LUT__406" port: "I[1]" }
+ }
+net {
+	name: "BTN[1]"
+	terminal	{ cell: "BTN[1]" port: "inpad" }
+	terminal	{ cell: "btn1_debounce[4]~FF" port: "RE" }
+	terminal	{ cell: "shift_counter[2]~FF" port: "I[2]" }
+	terminal	{ cell: "btn1_debounce[2]~FF" port: "RE" }
+	terminal	{ cell: "shift_counter[1]~FF" port: "I[3]" }
+	terminal	{ cell: "shift_counter[0]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__549" port: "I[0]" }
+	terminal	{ cell: "LUT__405" port: "I[1]" }
+	terminal	{ cell: "LUT__406" port: "I[0]" }
+ }
+net {
+	name: "btn1_debounce[4]"
+	terminal	{ cell: "btn1_debounce[4]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__404" port: "I[2]" }
+	terminal	{ cell: "add_25/i5" port: "I[0]" }
+ }
+net {
+	name: "counter[10]"
+	terminal	{ cell: "counter[10]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[10]~FF" port: "I[0]" }
+ }
+net {
+	name: "n59"
+	terminal	{ cell: "counter[9]~FF" port: "cout" }
+	terminal	{ cell: "counter[10]~FF" port: "cin" }
+ }
+net {
+	name: "n57"
+	terminal	{ cell: "counter[10]~FF" port: "cout" }
+	terminal	{ cell: "counter[11]~FF" port: "cin" }
+ }
+net {
+	name: "counter[18]"
+	terminal	{ cell: "counter[18]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[18]~FF" port: "I[0]" }
+ }
+net {
+	name: "n43"
+	terminal	{ cell: "counter[17]~FF" port: "cout" }
+	terminal	{ cell: "counter[18]~FF" port: "cin" }
+ }
+net {
+	name: "n41"
+	terminal	{ cell: "counter[18]~FF" port: "cout" }
+	terminal	{ cell: "counter[19]~FF" port: "cin" }
+ }
+net {
+	name: "counter[14]"
+	terminal	{ cell: "counter[14]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[14]~FF" port: "I[0]" }
+ }
+net {
+	name: "n51"
+	terminal	{ cell: "counter[13]~FF" port: "cout" }
+	terminal	{ cell: "counter[14]~FF" port: "cin" }
+ }
+net {
+	name: "n49"
+	terminal	{ cell: "counter[14]~FF" port: "cout" }
+	terminal	{ cell: "counter[15]~FF" port: "cin" }
+ }
+net {
+	name: "counter[19]"
+	terminal	{ cell: "counter[19]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[19]~FF" port: "I[0]" }
+ }
+net {
+	name: "n273"
+	terminal	{ cell: "LUT__415" port: "O" }
+	terminal	{ cell: "shift_counter[2]~FF" port: "I[0]" }
+	terminal	{ cell: "shift_counter[1]~FF" port: "I[1]" }
+ }
+net {
+	name: "n274"
+	terminal	{ cell: "LUT__417" port: "O" }
+	terminal	{ cell: "shift_counter[2]~FF" port: "I[3]" }
+ }
+net {
+	name: "n148"
+	terminal	{ cell: "LUT__405" port: "O" }
+	terminal	{ cell: "shift_counter[2]~FF" port: "CE" }
+	terminal	{ cell: "shift_counter[1]~FF" port: "CE" }
+	terminal	{ cell: "shift_counter[0]~FF" port: "CE" }
+ }
+net {
+	name: "shift_counter[2]"
+	terminal	{ cell: "shift_counter[2]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__415" port: "I[0]" }
+	terminal	{ cell: "LUT__417" port: "I[2]" }
+	terminal	{ cell: "LUT__549" port: "I[3]" }
+	terminal	{ cell: "LUT__413" port: "I[0]" }
+	terminal	{ cell: "LUT__412" port: "I[2]" }
+	terminal	{ cell: "LUT__409" port: "I[2]" }
+	terminal	{ cell: "LUT__408" port: "I[1]" }
+	terminal	{ cell: "LUT__407" port: "I[1]" }
+	terminal	{ cell: "LUT__403" port: "I[2]" }
+	terminal	{ cell: "LUT__401" port: "I[2]" }
+	terminal	{ cell: "LUT__402" port: "I[2]" }
+	terminal	{ cell: "LUT__414" port: "I[0]" }
+ }
+net {
+	name: "n84"
+	terminal	{ cell: "add_14/i5" port: "O" }
+	terminal	{ cell: "btn0_debounce[4]~FF" port: "I[0]" }
+ }
+net {
+	name: "n270"
+	terminal	{ cell: "LUT__399" port: "O" }
+	terminal	{ cell: "btn0_debounce[4]~FF" port: "I[1]" }
+	terminal	{ cell: "btn0_debounce[2]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__405" port: "I[2]" }
+	terminal	{ cell: "LUT__400" port: "I[1]" }
+ }
+net {
+	name: "BTN[0]"
+	terminal	{ cell: "BTN[0]" port: "inpad" }
+	terminal	{ cell: "btn0_debounce[4]~FF" port: "RE" }
+	terminal	{ cell: "btn0_debounce[2]~FF" port: "RE" }
+	terminal	{ cell: "LUT__405" port: "I[3]" }
+	terminal	{ cell: "LUT__400" port: "I[0]" }
+ }
+net {
+	name: "btn0_debounce[4]"
+	terminal	{ cell: "btn0_debounce[4]~FF" port: "O_seq" }
+	terminal	{ cell: "add_14/i5" port: "I[0]" }
+	terminal	{ cell: "LUT__399" port: "I[2]" }
+ }
+net {
+	name: "n86"
+	terminal	{ cell: "add_14/i3" port: "O" }
+	terminal	{ cell: "btn0_debounce[2]~FF" port: "I[0]" }
+ }
+net {
+	name: "btn0_debounce[2]"
+	terminal	{ cell: "btn0_debounce[2]~FF" port: "O_seq" }
+	terminal	{ cell: "add_14/i3" port: "I[0]" }
+	terminal	{ cell: "LUT__399" port: "I[1]" }
+ }
+net {
+	name: "counter[28]"
+	terminal	{ cell: "counter[28]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[28]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__425" port: "I[0]" }
+ }
+net {
+	name: "n23"
+	terminal	{ cell: "counter[27]~FF" port: "cout" }
+	terminal	{ cell: "counter[28]~FF" port: "cin" }
+ }
+net {
+	name: "n21"
+	terminal	{ cell: "counter[28]~FF" port: "cout" }
+	terminal	{ cell: "counter[29]~FF" port: "cin" }
+ }
+net {
+	name: "btn1_debounce[0]"
+	terminal	{ cell: "btn1_debounce[0]~FF" port: "O_seq" }
+	terminal	{ cell: "btn1_debounce[0]~FF" port: "I[1]" }
+	terminal	{ cell: "btn1_debounce[1]~FF" port: "I[1]" }
+ }
+net {
+	name: "counter[2]"
+	terminal	{ cell: "counter[2]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[2]~FF" port: "I[0]" }
+ }
+net {
+	name: "n198"
+	terminal	{ cell: "LUT__407" port: "O" }
+	terminal	{ cell: "counter[2]~FF" port: "I[1]" }
+ }
+net {
+	name: "n65"
+	terminal	{ cell: "counter[1]~FF" port: "cout" }
+	terminal	{ cell: "counter[2]~FF" port: "cin" }
+ }
+net {
+	name: "n63"
+	terminal	{ cell: "counter[2]~FF" port: "cout" }
+	terminal	{ cell: "counter[3]~FF" port: "cin" }
+ }
+net {
+	name: "btn0_debounce[1]"
+	terminal	{ cell: "btn0_debounce[1]~FF" port: "O_seq" }
+	terminal	{ cell: "btn0_debounce[1]~FF" port: "I[0]" }
+ }
+net {
+	name: "n6"
+	terminal	{ cell: "btn0_debounce[1]~FF" port: "cout" }
+	terminal	{ cell: "add_14/i3" port: "cin" }
+ }
+net {
+	name: "counter[26]"
+	terminal	{ cell: "counter[26]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[26]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__427" port: "I[0]" }
+ }
+net {
+	name: "n25"
+	terminal	{ cell: "counter[26]~FF" port: "cout" }
+	terminal	{ cell: "counter[27]~FF" port: "cin" }
+ }
+net {
+	name: "counter[29]"
+	terminal	{ cell: "counter[29]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[29]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__424" port: "I[0]" }
+ }
+net {
+	name: "counter[5]"
+	terminal	{ cell: "counter[5]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[5]~FF" port: "I[0]" }
+ }
+net {
+	name: "n145"
+	terminal	{ cell: "LUT__403" port: "O" }
+	terminal	{ cell: "counter[5]~FF" port: "I[1]" }
+ }
+net {
+	name: "n77"
+	terminal	{ cell: "counter[4]~FF" port: "cout" }
+	terminal	{ cell: "counter[5]~FF" port: "cin" }
+ }
+net {
+	name: "counter[1]"
+	terminal	{ cell: "counter[1]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[1]~FF" port: "I[0]" }
+ }
+net {
+	name: "n201"
+	terminal	{ cell: "LUT__408" port: "O" }
+	terminal	{ cell: "counter[1]~FF" port: "I[1]" }
+ }
+net {
+	name: "counter[7]"
+	terminal	{ cell: "counter[7]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[7]~FF" port: "I[0]" }
+ }
+net {
+	name: "n137"
+	terminal	{ cell: "LUT__401" port: "O" }
+	terminal	{ cell: "counter[7]~FF" port: "I[1]" }
+ }
+net {
+	name: "btn1_debounce[3]"
+	terminal	{ cell: "btn1_debounce[3]~FF" port: "O_seq" }
+	terminal	{ cell: "btn1_debounce[3]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__404" port: "I[0]" }
+ }
+net {
+	name: "n83"
+	terminal	{ cell: "add_25/i3" port: "cout" }
+	terminal	{ cell: "btn1_debounce[3]~FF" port: "cin" }
+ }
+net {
+	name: "n75"
+	terminal	{ cell: "btn1_debounce[3]~FF" port: "cout" }
+	terminal	{ cell: "add_25/i5" port: "cin" }
+ }
+net {
+	name: "counter[9]"
+	terminal	{ cell: "counter[9]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[9]~FF" port: "I[0]" }
+ }
+net {
+	name: "counter[24]"
+	terminal	{ cell: "counter[24]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[24]~FF" port: "I[0]" }
+ }
+net {
+	name: "n31"
+	terminal	{ cell: "counter[23]~FF" port: "cout" }
+	terminal	{ cell: "counter[24]~FF" port: "cin" }
+ }
+net {
+	name: "counter[11]"
+	terminal	{ cell: "counter[11]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[11]~FF" port: "I[0]" }
+ }
+net {
+	name: "n82"
+	terminal	{ cell: "add_25/i3" port: "O" }
+	terminal	{ cell: "btn1_debounce[2]~FF" port: "I[0]" }
+ }
+net {
+	name: "btn1_debounce[2]"
+	terminal	{ cell: "btn1_debounce[2]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__404" port: "I[1]" }
+	terminal	{ cell: "add_25/i3" port: "I[0]" }
+ }
+net {
+	name: "counter[13]"
+	terminal	{ cell: "counter[13]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[13]~FF" port: "I[0]" }
+ }
+net {
+	name: "counter[17]"
+	terminal	{ cell: "counter[17]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[17]~FF" port: "I[0]" }
+ }
+net {
+	name: "n45"
+	terminal	{ cell: "counter[16]~FF" port: "cout" }
+	terminal	{ cell: "counter[17]~FF" port: "cin" }
+ }
+net {
+	name: "counter[15]"
+	terminal	{ cell: "counter[15]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[15]~FF" port: "I[0]" }
+ }
+net {
+	name: "n47"
+	terminal	{ cell: "counter[15]~FF" port: "cout" }
+	terminal	{ cell: "counter[16]~FF" port: "cin" }
+ }
+net {
+	name: "counter[23]"
+	terminal	{ cell: "counter[23]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[23]~FF" port: "I[0]" }
+ }
+net {
+	name: "n272"
+	terminal	{ cell: "LUT__414" port: "O" }
+	terminal	{ cell: "shift_counter[1]~FF" port: "I[0]" }
+ }
+net {
+	name: "shift_counter[1]"
+	terminal	{ cell: "shift_counter[1]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__415" port: "I[1]" }
+	terminal	{ cell: "LUT__417" port: "I[0]" }
+	terminal	{ cell: "LUT__549" port: "I[2]" }
+	terminal	{ cell: "LUT__413" port: "I[1]" }
+	terminal	{ cell: "LUT__412" port: "I[1]" }
+	terminal	{ cell: "LUT__409" port: "I[1]" }
+	terminal	{ cell: "LUT__408" port: "I[0]" }
+	terminal	{ cell: "LUT__407" port: "I[2]" }
+	terminal	{ cell: "LUT__403" port: "I[0]" }
+	terminal	{ cell: "LUT__401" port: "I[1]" }
+	terminal	{ cell: "LUT__402" port: "I[1]" }
+	terminal	{ cell: "LUT__414" port: "I[1]" }
+ }
+net {
+	name: "counter[16]"
+	terminal	{ cell: "counter[16]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[16]~FF" port: "I[0]" }
+	terminal	{ cell: "CLKBUF__0" port: "I[1]" }
+ }
+net {
+	name: "btn1_debounce[1]"
+	terminal	{ cell: "btn1_debounce[1]~FF" port: "O_seq" }
+	terminal	{ cell: "btn1_debounce[1]~FF" port: "I[0]" }
+ }
+net {
+	name: "n11"
+	terminal	{ cell: "btn1_debounce[1]~FF" port: "cout" }
+	terminal	{ cell: "add_25/i3" port: "cin" }
+ }
+net {
+	name: "counter[27]"
+	terminal	{ cell: "counter[27]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[27]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__426" port: "I[0]" }
+ }
+net {
+	name: "shift_counter[0]"
+	terminal	{ cell: "shift_counter[0]~FF" port: "O_seq" }
+	terminal	{ cell: "shift_counter[0]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__415" port: "I[2]" }
+	terminal	{ cell: "LUT__417" port: "I[1]" }
+	terminal	{ cell: "LUT__549" port: "I[1]" }
+	terminal	{ cell: "LUT__413" port: "I[2]" }
+	terminal	{ cell: "LUT__412" port: "I[0]" }
+	terminal	{ cell: "LUT__409" port: "I[0]" }
+	terminal	{ cell: "LUT__408" port: "I[2]" }
+	terminal	{ cell: "LUT__407" port: "I[0]" }
+	terminal	{ cell: "LUT__403" port: "I[1]" }
+	terminal	{ cell: "LUT__401" port: "I[0]" }
+	terminal	{ cell: "LUT__402" port: "I[0]" }
+	terminal	{ cell: "LUT__414" port: "I[2]" }
+ }
+net {
+	name: "n275"
+	terminal	{ cell: "LUT__549" port: "O" }
+	terminal	{ cell: "shift_counter[0]~FF" port: "I[3]" }
+ }
+net {
+	name: "counter[3]"
+	terminal	{ cell: "counter[3]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[3]~FF" port: "I[0]" }
+ }
+net {
+	name: "n219"
+	terminal	{ cell: "LUT__413" port: "O" }
+	terminal	{ cell: "counter[3]~FF" port: "I[1]" }
+ }
+net {
+	name: "n79"
+	terminal	{ cell: "counter[3]~FF" port: "cout" }
+	terminal	{ cell: "counter[4]~FF" port: "cin" }
+ }
+net {
+	name: "counter[4]"
+	terminal	{ cell: "counter[4]~FF" port: "O_seq" }
+	terminal	{ cell: "counter[4]~FF" port: "I[0]" }
+ }
+net {
+	name: "n216"
+	terminal	{ cell: "LUT__412" port: "O" }
+	terminal	{ cell: "counter[4]~FF" port: "I[1]" }
+ }
+net {
+	name: "LED[3]"
+	terminal	{ cell: "LUT__424" port: "O" }
+	terminal	{ cell: "LED[3]" port: "outpad" }
+ }
+net {
+	name: "LED[1]"
+	terminal	{ cell: "LUT__426" port: "O" }
+	terminal	{ cell: "LED[1]" port: "outpad" }
+ }
+net {
+	name: "pll_inst1_CLKOUT0"
+	terminal	{ cell: "pll_inst1_CLKOUT0" port: "inpad" }
+	terminal	{ cell: "CLKBUF__1" port: "IO_in" }
+ }
+net {
+	name: "LED[2]"
+	terminal	{ cell: "LUT__425" port: "O" }
+	terminal	{ cell: "LED[2]" port: "outpad" }
+ }
+net {
+	name: "LED[0]"
+	terminal	{ cell: "LUT__427" port: "O" }
+	terminal	{ cell: "LED[0]" port: "outpad" }
+ }

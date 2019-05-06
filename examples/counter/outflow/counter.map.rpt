@@ -1,0 +1,60 @@
+Synthesis report for project counter
+Date : May 6 2019  17:23:27
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : counter
+### ### File List (begin) ### ### ###
+(verilog) C:/Efinity/2018.4/project/counter/counter.v
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+HS : Hierarchical pre-synthesis module : "counter"
+@ "C:/Efinity/2018.4/project/counter/counter.v (20)"
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 3
+Enable signal <pll_inst1_RSTN>, number of controlling flip flops: 12
+Enable signal <n148>, number of controlling flip flops: 3
+Enable signal <pll_inst1_LOCKED>, number of controlling flip flops: 30
+### ### EFX FF CE enables (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T8F81
+project : counter
+root : counter
+I : C:/Efinity/2018.4/project/counter
+output-dir : C:/Efinity/2018.4/project/counter/outflow
+work-dir : C:/Efinity/2018.4/project/counter/work_syn
+write-efx-verilog : C:/Efinity/2018.4/project/counter/outflow/counter.map.v
+binary-db : C:/Efinity/2018.4/project/counter/counter.vdb
+insert-ios : 0
+num_mult18 : -1
+num_ram_5k : -1
+syn_options : mode=speed
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	4
+OUTPUT PORTS    : 	5
+
+EFX_ADD         : 	40
+EFX_LUT4        : 	28
+EFX_FF          : 	45
+EFX_GBUFCE      : 	2
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 0s
+Elapsed synthesis time : 0s

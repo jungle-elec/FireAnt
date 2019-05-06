@@ -1,0 +1,339 @@
+
+p
+counter[22]~FFeft
+arithmetic"&
+counter[22]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i23eft(0)/adder(1)"EFX_ADD
+p
+counter[12]~FFeft
+arithmetic"&
+counter[12]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i13eft(0)/adder(1)"EFX_ADD
+p
+counter[25]~FFeft
+arithmetic"&
+counter[25]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i26eft(0)/adder(1)"EFX_ADD
+m
+counter[0]~FFeft
+arithmetic"%
+counter[0]~FFeft(0)/ff(1)"EFX_FF"$
+add_7/i1eft(0)/adder(1)"EFX_ADD
+m
+counter[8]~FFeft
+arithmetic"%
+counter[8]~FFeft(0)/ff(1)"EFX_FF"$
+add_7/i9eft(0)/adder(1)"EFX_ADD
+p
+counter[20]~FFeft
+arithmetic"&
+counter[20]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i21eft(0)/adder(1)"EFX_ADD
+z
+btn0_debounce[5]~FFeft
+arithmetic"+
+btn0_debounce[5]~FFeft(0)/ff(1)"EFX_FF"%
+	add_14/i6eft(0)/adder(1)"EFX_ADD
+z
+btn1_debounce[5]~FFeft
+arithmetic"+
+btn1_debounce[5]~FFeft(0)/ff(1)"EFX_FF"%
+	add_25/i6eft(0)/adder(1)"EFX_ADD
+N
+btn0_debounce[0]~FFeftlogic"+
+btn0_debounce[0]~FFeft(0)/ff(0)"EFX_FF
+z
+btn0_debounce[3]~FFeft
+arithmetic"+
+btn0_debounce[3]~FFeft(0)/ff(1)"EFX_FF"%
+	add_14/i4eft(0)/adder(1)"EFX_ADD
+p
+counter[21]~FFeft
+arithmetic"&
+counter[21]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i22eft(0)/adder(1)"EFX_ADD
+m
+counter[6]~FFeft
+arithmetic"%
+counter[6]~FFeft(0)/ff(1)"EFX_FF"$
+add_7/i7eft(0)/adder(1)"EFX_ADD
+x
+btn1_debounce[4]~FFeftlogic"+
+btn1_debounce[4]~FFeft(0)/ff(0)"EFX_FF"(
+LUT__420eft(0)/lut4(0)/lut(1)"names
+p
+counter[10]~FFeft
+arithmetic"&
+counter[10]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i11eft(0)/adder(1)"EFX_ADD
+p
+counter[18]~FFeft
+arithmetic"&
+counter[18]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i19eft(0)/adder(1)"EFX_ADD
+p
+counter[14]~FFeft
+arithmetic"&
+counter[14]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i15eft(0)/adder(1)"EFX_ADD
+p
+counter[19]~FFeft
+arithmetic"&
+counter[19]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i20eft(0)/adder(1)"EFX_ADD
+x
+shift_counter[2]~FFeftlogic"+
+shift_counter[2]~FFeft(0)/ff(0)"EFX_FF"(
+LUT__418eft(0)/lut4(0)/lut(1)"names
+x
+btn0_debounce[4]~FFeftlogic"+
+btn0_debounce[4]~FFeft(0)/ff(0)"EFX_FF"(
+LUT__411eft(0)/lut4(0)/lut(1)"names
+x
+btn0_debounce[2]~FFeftlogic"+
+btn0_debounce[2]~FFeft(0)/ff(0)"EFX_FF"(
+LUT__410eft(0)/lut4(0)/lut(1)"names
+p
+counter[28]~FFeft
+arithmetic"&
+counter[28]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i29eft(0)/adder(1)"EFX_ADD
+N
+btn1_debounce[0]~FFeftlogic"+
+btn1_debounce[0]~FFeft(0)/ff(0)"EFX_FF
+m
+counter[2]~FFeft
+arithmetic"%
+counter[2]~FFeft(0)/ff(1)"EFX_FF"$
+add_7/i3eft(0)/adder(1)"EFX_ADD
+z
+btn0_debounce[1]~FFeft
+arithmetic"+
+btn0_debounce[1]~FFeft(0)/ff(1)"EFX_FF"%
+	add_14/i2eft(0)/adder(1)"EFX_ADD
+p
+counter[26]~FFeft
+arithmetic"&
+counter[26]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i27eft(0)/adder(1)"EFX_ADD
+p
+counter[29]~FFeft
+arithmetic"&
+counter[29]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i30eft(0)/adder(1)"EFX_ADD
+m
+counter[5]~FFeft
+arithmetic"%
+counter[5]~FFeft(0)/ff(1)"EFX_FF"$
+add_7/i6eft(0)/adder(1)"EFX_ADD
+m
+counter[1]~FFeft
+arithmetic"%
+counter[1]~FFeft(0)/ff(1)"EFX_FF"$
+add_7/i2eft(0)/adder(1)"EFX_ADD
+m
+counter[7]~FFeft
+arithmetic"%
+counter[7]~FFeft(0)/ff(1)"EFX_FF"$
+add_7/i8eft(0)/adder(1)"EFX_ADD
+z
+btn1_debounce[3]~FFeft
+arithmetic"+
+btn1_debounce[3]~FFeft(0)/ff(1)"EFX_FF"%
+	add_25/i4eft(0)/adder(1)"EFX_ADD
+n
+counter[9]~FFeft
+arithmetic"%
+counter[9]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i10eft(0)/adder(1)"EFX_ADD
+p
+counter[24]~FFeft
+arithmetic"&
+counter[24]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i25eft(0)/adder(1)"EFX_ADD
+p
+counter[11]~FFeft
+arithmetic"&
+counter[11]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i12eft(0)/adder(1)"EFX_ADD
+x
+btn1_debounce[2]~FFeftlogic"+
+btn1_debounce[2]~FFeft(0)/ff(0)"EFX_FF"(
+LUT__419eft(0)/lut4(0)/lut(1)"names
+p
+counter[13]~FFeft
+arithmetic"&
+counter[13]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i14eft(0)/adder(1)"EFX_ADD
+p
+counter[17]~FFeft
+arithmetic"&
+counter[17]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i18eft(0)/adder(1)"EFX_ADD
+p
+counter[15]~FFeft
+arithmetic"&
+counter[15]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i16eft(0)/adder(1)"EFX_ADD
+p
+counter[23]~FFeft
+arithmetic"&
+counter[23]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i24eft(0)/adder(1)"EFX_ADD
+x
+shift_counter[1]~FFeftlogic"+
+shift_counter[1]~FFeft(0)/ff(0)"EFX_FF"(
+LUT__416eft(0)/lut4(0)/lut(1)"names
+p
+counter[16]~FFeft
+arithmetic"&
+counter[16]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i17eft(0)/adder(1)"EFX_ADD
+z
+btn1_debounce[1]~FFeft
+arithmetic"+
+btn1_debounce[1]~FFeft(0)/ff(1)"EFX_FF"%
+	add_25/i2eft(0)/adder(1)"EFX_ADD
+p
+counter[27]~FFeft
+arithmetic"&
+counter[27]~FFeft(0)/ff(1)"EFX_FF"%
+	add_7/i28eft(0)/adder(1)"EFX_ADD
+x
+shift_counter[0]~FFeftlogic"+
+shift_counter[0]~FFeft(0)/ff(0)"EFX_FF"(
+LUT__550eft(0)/lut4(0)/lut(1)"names
+m
+counter[3]~FFeft
+arithmetic"%
+counter[3]~FFeft(0)/ff(1)"EFX_FF"$
+add_7/i4eft(0)/adder(1)"EFX_ADD
+m
+counter[4]~FFeft
+arithmetic"%
+counter[4]~FFeft(0)/ff(1)"EFX_FF"$
+add_7/i5eft(0)/adder(1)"EFX_ADD
+@
+LUT__415efllogic"(
+LUT__415efl(0)/lut4(0)/lut(1)"names
+G
+pll_inst1_RSTNiooutpad")
+pll_inst1_RSTNio(0)/outpad(1)"output
+@
+LUT__417efllogic"(
+LUT__417efl(0)/lut4(0)/lut(1)"names
+@
+LUT__424efllogic"(
+LUT__424efl(0)/lut4(0)/lut(1)"names
+@
+LUT__426efllogic"(
+LUT__426efl(0)/lut4(0)/lut(1)"names
+@
+LUT__549efllogic"(
+LUT__549efl(0)/lut4(0)/lut(1)"names
+@
+LUT__413efllogic"(
+LUT__413efl(0)/lut4(0)/lut(1)"names
+@
+LUT__412efllogic"(
+LUT__412efl(0)/lut4(0)/lut(1)"names
+@
+LUT__409efllogic"(
+LUT__409efl(0)/lut4(0)/lut(1)"names
+@
+LUT__408efllogic"(
+LUT__408efl(0)/lut4(0)/lut(1)"names
+@
+LUT__407efllogic"(
+LUT__407efl(0)/lut4(0)/lut(1)"names
+@
+LUT__405efllogic"(
+LUT__405efl(0)/lut4(0)/lut(1)"names
+@
+LUT__404efllogic"(
+LUT__404efl(0)/lut4(0)/lut(1)"names
+@
+LUT__403efllogic"(
+LUT__403efl(0)/lut4(0)/lut(1)"names
+@
+LUT__401efllogic"(
+LUT__401efl(0)/lut4(0)/lut(1)"names
+@
+LUT__400efllogic"(
+LUT__400efl(0)/lut4(0)/lut(1)"names
+4
+BTN[0]ioinpad"
+BTN[0]io(0)/inpad(0)"input
+7
+LED[1]iooutpad"!
+LED[1]io(0)/outpad(1)"output
+C
+	add_14/i5eft
+arithmetic"%
+	add_14/i5eft(0)/adder(1)"EFX_ADD
+C
+	add_25/i3eft
+arithmetic"%
+	add_25/i3eft(0)/adder(1)"EFX_ADD
+C
+	add_25/i5eft
+arithmetic"%
+	add_25/i5eft(0)/adder(1)"EFX_ADD
+6
+VCCefllogic"#
+VCCefl(0)/lut4(0)/lut(1)"names
+C
+	add_14/i3eft
+arithmetic"%
+	add_14/i3eft(0)/adder(1)"EFX_ADD
+6
+GNDefllogic"#
+GNDefl(0)/lut4(0)/lut(1)"names
+4
+BTN[1]ioinpad"
+BTN[1]io(0)/inpad(0)"input
+@
+LUT__402efllogic"(
+LUT__402efl(0)/lut4(0)/lut(1)"names
+@
+LUT__406efllogic"(
+LUT__406efl(0)/lut4(0)/lut(1)"names
+J
+pll_inst1_CLKOUT0ioinpad"*
+pll_inst1_CLKOUT0io(0)/inpad(0)"input
+@
+LUT__414efllogic"(
+LUT__414efl(0)/lut4(0)/lut(1)"names
+@
+LUT__425efllogic"(
+LUT__425efl(0)/lut4(0)/lut(1)"names
+@
+LUT__427efllogic"(
+LUT__427efl(0)/lut4(0)/lut(1)"names
+@
+LUT__399efllogic"(
+LUT__399efl(0)/lut4(0)/lut(1)"names
+S
+	CLKBUF__1
+gbuf_block
+gbuf_block".
+	CLKBUF__1gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+S
+	CLKBUF__0
+gbuf_block
+gbuf_block".
+	CLKBUF__0gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+H
+pll_inst1_LOCKEDioinpad")
+pll_inst1_LOCKEDio(0)/inpad(0)"input
+7
+LED[0]iooutpad"!
+LED[0]io(0)/outpad(1)"output
+7
+LED[2]iooutpad"!
+LED[2]io(0)/outpad(1)"output
+7
+LED[3]iooutpad"!
+LED[3]io(0)/outpad(1)"output

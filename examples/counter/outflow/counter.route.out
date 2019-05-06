@@ -1,0 +1,93 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2018.4.285 
+Compiled: Jan 27 2019.
+
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage routing graph generation ... *****
+This design has 0 global control net(s). See C:/Efinity/2018.4/project/counter/outflow\counter.route.rpt for details.
+Routing graph took 0.925051 seconds.
+	Routing graph took 0.926 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 23.612 MB, end = 148.828 MB, delta = 125.216 MB
+	Routing graph peak virtual memory usage = 169.52 MB
+Routing graph resident set memory usage: begin = 28.116 MB, end = 151.756 MB, delta = 123.64 MB
+	Routing graph peak resident set memory usage = 172.348 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1           92              16.31             0.0375
+         2           22              16.31             0.0169
+         3            6              16.31             0.0146
+         4            2              16.31             0.0138
+         5            1              16.31             0.0116
+         6            0              16.31             0.0115
+
+Successfully routed netlist after 6 routing iterations.
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 69442305
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Efinity/2018.4/project/counter/outflow/counter.route'
+Routing took 0.166326 seconds.
+	Routing took 0.166 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 148.828 MB, end = 149.512 MB, delta = 0.684 MB
+	Routing peak virtual memory usage = 177.26 MB
+Routing resident set memory usage: begin = 151.764 MB, end = 151.944 MB, delta = 0.18 MB
+	Routing peak resident set memory usage = 172.348 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+
+NOTE: The timing data is not final.
+
+Maximum possible analyzed clocks frequency
+Clock Name           Period (ns)   Frequency (MHz)   Edge
+counter[16]               16.038          62.353     (R-R)
+pll_inst1_CLKOUT0          7.143         140.007     (R-R)
+
+Launch Clock       Capture Clock      Constraint (ns)   Slack (ns)    Edge
+counter[16]         counter[16]             10.000        -6.038     (R-R)
+pll_inst1_CLKOUT0   pll_inst1_CLKOUT0       10.000         2.857     (R-R)
+pll_inst1_CLKOUT0   virtual_io_clock        10.000        -6.446     (R-R)
+virtual_io_clock    counter[16]             10.000         4.880     (R-R)
+virtual_io_clock    pll_inst1_CLKOUT0       10.000         6.742     (R-R)
+
+
+final timing analysis took 0.0621846 seconds.
+	final timing analysis took 0.062 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 149.512 MB, end = 149.512 MB, delta = 0 MB
+	final timing analysis peak virtual memory usage = 177.26 MB
+final timing analysis resident set memory usage: begin = 151.956 MB, end = 152.264 MB, delta = 0.308 MB
+	final timing analysis peak resident set memory usage = 172.348 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Efinity/2018.4/project/counter/outflow/counter.interface.csv'.
+Successfully processed interface constraints file "C:/Efinity/2018.4/project/counter/outflow/counter.interface.csv".
+Finished writing bitstream file C:/Efinity/2018.4/project/counter/work_pnr\counter.lbf.
+Bitstream generation took 0.102645 seconds.
+	Bitstream generation took 0.103 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 149.512 MB, end = 156.196 MB, delta = 6.684 MB
+	Bitstream generation peak virtual memory usage = 177.26 MB
+Bitstream generation resident set memory usage: begin = 152.272 MB, end = 159.444 MB, delta = 7.172 MB
+	Bitstream generation peak resident set memory usage = 172.348 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 7.21197 seconds.
+	The entire flow of EFX_PNR took 7.213 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 8.236 MB, end = 36.664 MB, delta = 28.428 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 177.26 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 8.52 MB, end = 43.148 MB, delta = 34.628 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 172.348 MB
