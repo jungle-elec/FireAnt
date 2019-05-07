@@ -1,5 +1,5 @@
 Synthesis report for project counter
-Date : May 6 2019  17:23:27
+Date : May 7 2019  12:20:40
 Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
 
 ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
@@ -11,7 +11,7 @@ Top-level Entity Name : counter
 
 ### ### Pre-optimizations and mapping (begin) ### ### ###
 HS : Hierarchical pre-synthesis module : "counter"
-@ "C:/Efinity/2018.4/project/counter/counter.v (20)"
+@ "C:/Efinity/2018.4/project/counter/counter.v (21)"
 
 Mapping success.
 ### ### Mapping (end) ### ### ###

@@ -15,12 +15,12 @@ Running Placement and Routing for Family "Trion", Device "T8F81" ...
 ***** Beginning stage netlist pre-processing ... *****
 Successfully Read in Verific binary Netlist dump file "C:/Efinity/2018.4/project/counter/counter.vdb".
 ***** Beginning VDB Netlist Checker ... *****
-VDB Netlist Checker took 0.0299497 seconds.
-	VDB Netlist Checker took 0.03 seconds (approximately) in total CPU time.
-VDB Netlist Checker virtual memory usage: begin = 12.552 MB, end = 12.552 MB, delta = 0 MB
-	VDB Netlist Checker peak virtual memory usage = 66.22 MB
-VDB Netlist Checker resident set memory usage: begin = 15.92 MB, end = 16.032 MB, delta = 0.112 MB
-	VDB Netlist Checker peak resident set memory usage = 54.376 MB
+VDB Netlist Checker took 0.030272 seconds.
+	VDB Netlist Checker took 0.031 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 12.548 MB, end = 12.548 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 65.096 MB
+VDB Netlist Checker resident set memory usage: begin = 15.932 MB, end = 16.044 MB, delta = 0.112 MB
+	VDB Netlist Checker peak resident set memory usage = 54.388 MB
 ***** Ending VDB Netlist Checker ... *****
 Reading core interface constraints from 'C:/Efinity/2018.4/project/counter/outflow/counter.interface.csv'.
 Successfully processed interface constraints file "C:/Efinity/2018.4/project/counter/outflow/counter.interface.csv".
@@ -30,36 +30,36 @@ Pass 0: Swept away 0 blocks with no fanout.
 Swept away 0 nets and 0 blocks in total.
 Removed 0 LUT buffers.
 Successfully created VPR logical netlist from Verific binary DataBase file "C:/Efinity/2018.4/project/counter/counter.vdb".
-Netlist pre-processing took 0.0465584 seconds.
-	Netlist pre-processing took 0.046 seconds (approximately) in total CPU time.
-Netlist pre-processing virtual memory usage: begin = 12.536 MB, end = 12.552 MB, delta = 0.016 MB
-	Netlist pre-processing peak virtual memory usage = 66.22 MB
-Netlist pre-processing resident set memory usage: begin = 15.52 MB, end = 16.372 MB, delta = 0.852 MB
-	Netlist pre-processing peak resident set memory usage = 54.376 MB
+Netlist pre-processing took 0.0435956 seconds.
+	Netlist pre-processing took 0.044 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 12.532 MB, end = 12.548 MB, delta = 0.016 MB
+	Netlist pre-processing peak virtual memory usage = 65.096 MB
+Netlist pre-processing resident set memory usage: begin = 15.532 MB, end = 16.384 MB, delta = 0.852 MB
+	Netlist pre-processing peak resident set memory usage = 54.388 MB
 ***** Ending stage netlist pre-processing *****
 ***** Beginning stage packing ... *****
 ***** Beginning stage pre-packing ... *****
 ***** Ending stage pre-packing *****
 SetupClusteredData num_clusters=83
-Generate proto netlist for file "C:/Efinity/2018.4/project/counter/work_pnr\counter.net_proto" took 0.003 seconds
+Generate proto netlist for file "C:/Efinity/2018.4/project/counter/work_pnr\counter.net_proto" took 0.002 seconds
 Creating IO constraints file 'C:/Efinity/2018.4/project/counter/work_pnr\counter.io_place'
-Packing took 0.0874078 seconds.
-	Packing took 0.087 seconds (approximately) in total CPU time.
-Packing virtual memory usage: begin = 12.552 MB, end = 16.672 MB, delta = 4.12 MB
-	Packing peak virtual memory usage = 66.22 MB
-Packing resident set memory usage: begin = 16.392 MB, end = 20.3 MB, delta = 3.908 MB
-	Packing peak resident set memory usage = 58.18 MB
+Packing took 0.0871516 seconds.
+	Packing took 0.088 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 12.548 MB, end = 16.668 MB, delta = 4.12 MB
+	Packing peak virtual memory usage = 65.096 MB
+Packing resident set memory usage: begin = 16.404 MB, end = 20.32 MB, delta = 3.916 MB
+	Packing peak resident set memory usage = 58.188 MB
 ***** Ending stage packing *****
 ***** Beginning stage packed netlist loading ... *****
 Read proto netlist file C:/Efinity/2018.4/project/counter/work_pnr\counter.net_proto
 Read proto netlist for file "C:/Efinity/2018.4/project/counter/work_pnr\counter.net_proto" took 0 seconds
 Setup net and block data structure took 0.01 seconds
-Packed netlist loading took 0.0275948 seconds.
-	Packed netlist loading took 0.027 seconds (approximately) in total CPU time.
-Packed netlist loading virtual memory usage: begin = 13.368 MB, end = 16.496 MB, delta = 3.128 MB
-	Packed netlist loading peak virtual memory usage = 66.22 MB
-Packed netlist loading resident set memory usage: begin = 17.528 MB, end = 20.708 MB, delta = 3.18 MB
-	Packed netlist loading peak resident set memory usage = 59.772 MB
+Packed netlist loading took 0.0288364 seconds.
+	Packed netlist loading took 0.029 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 13.364 MB, end = 16.492 MB, delta = 3.128 MB
+	Packed netlist loading peak virtual memory usage = 65.096 MB
+Packed netlist loading resident set memory usage: begin = 17.548 MB, end = 20.732 MB, delta = 3.184 MB
+	Packed netlist loading peak resident set memory usage = 59.796 MB
 ***** Ending stage packed netlist loading *****
 ***** Beginning stage pre-placement ... *****
 
@@ -256,10 +256,10 @@ Completed placement consistency check successfully.
 
 Placement estimated critical path delay: 15.1972 ns
 Successfully created FPGA place file 'C:/Efinity/2018.4/project/counter/outflow/counter.place'
-Placement took 3.66169 seconds.
-	Placement took 3.662 seconds (approximately) in total CPU time.
-Placement virtual memory usage: begin = 17.588 MB, end = 23.612 MB, delta = 6.024 MB
-	Placement peak virtual memory usage = 66.22 MB
-Placement resident set memory usage: begin = 21.504 MB, end = 28.116 MB, delta = 6.612 MB
-	Placement peak resident set memory usage = 67.944 MB
+Placement took 3.76333 seconds.
+	Placement took 3.764 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 17.584 MB, end = 23.832 MB, delta = 6.248 MB
+	Placement peak virtual memory usage = 65.316 MB
+Placement resident set memory usage: begin = 21.532 MB, end = 29.504 MB, delta = 7.972 MB
+	Placement peak resident set memory usage = 69.384 MB
 ***** Ending stage placement *****

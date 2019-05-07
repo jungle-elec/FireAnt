@@ -8,10 +8,10 @@ INFO: ***** Beginning Analysis ... *****
 INFO: The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
 -- Analyzing Verilog file 'C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v' (VERI-1482)
 -- Analyzing Verilog file 'C:/Efinity/2018.4/project/counter/counter.v' (VERI-1482)
-INFO: Analysis took 0.0051328 seconds.
-INFO: 	Analysis took 0.005 seconds (approximately) in total CPU time.
-INFO: Analysis virtual memory usage: begin = 35.804 MB, end = 36.496 MB, delta = 0.692 MB
-INFO: 	Analysis peak virtual memory usage = 78.776 MB
+INFO: Analysis took 0.0057129 seconds.
+INFO: 	Analysis took 0.006 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 35.808 MB, end = 36.504 MB, delta = 0.696 MB
+INFO: 	Analysis peak virtual memory usage = 78.784 MB
 INFO: Analysis resident set memory usage: begin = 28.52 MB, end = 30.384 MB, delta = 1.864 MB
 INFO: 	Analysis peak resident set memory usage = 30.388 MB
 INFO: ***** Ending Analysis ... *****
@@ -29,14 +29,12 @@ C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(190): INFO: compiling module
 C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
 C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(367): INFO: compiling module 'RAMB5' (VERI-1018)
 C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(429): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
-C:/Efinity/2018.4/project/counter/counter.v(20): INFO: compiling module 'counter' (VERI-1018)
-C:/Efinity/2018.4/project/counter/counter.v(55): WARNING: expression size 32 truncated to fit in target size 30 (VERI-1209)
-C:/Efinity/2018.4/project/counter/counter.v(71): WARNING: expression size 7 truncated to fit in target size 6 (VERI-1209)
-C:/Efinity/2018.4/project/counter/counter.v(94): WARNING: expression size 7 truncated to fit in target size 6 (VERI-1209)
-INFO: Elaboration took 0.0052151 seconds.
-INFO: 	Elaboration took 0.005 seconds (approximately) in total CPU time.
-INFO: Elaboration virtual memory usage: begin = 36.496 MB, end = 37.4 MB, delta = 0.904 MB
-INFO: 	Elaboration peak virtual memory usage = 78.776 MB
+C:/Efinity/2018.4/project/counter/counter.v(21): INFO: compiling module 'counter' (VERI-1018)
+C:/Efinity/2018.4/project/counter/counter.v(56): WARNING: expression size 32 truncated to fit in target size 30 (VERI-1209)
+INFO: Elaboration took 0.0060241 seconds.
+INFO: 	Elaboration took 0.006 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 36.504 MB, end = 37.412 MB, delta = 0.908 MB
+INFO: 	Elaboration peak virtual memory usage = 78.784 MB
 INFO: Elaboration resident set memory usage: begin = 30.4 MB, end = 32.288 MB, delta = 1.888 MB
 INFO: 	Elaboration peak resident set memory usage = 32.292 MB
 INFO: ***** Ending Elaboration ... *****
@@ -56,10 +54,10 @@ C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(190): INFO: compiling module
 C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
 C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(367): INFO: compiling module 'RAMB5' (VERI-1018)
 C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v(429): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
-INFO: Reading Mapping Library took 0.0047151 seconds.
+INFO: Reading Mapping Library took 0.0047365 seconds.
 INFO: 	Reading Mapping Library took 0.004 seconds (approximately) in total CPU time.
-INFO: Reading Mapping Library virtual memory usage: begin = 37.408 MB, end = 37.668 MB, delta = 0.26 MB
-INFO: 	Reading Mapping Library peak virtual memory usage = 78.776 MB
+INFO: Reading Mapping Library virtual memory usage: begin = 37.42 MB, end = 37.68 MB, delta = 0.26 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 78.784 MB
 INFO: Reading Mapping Library resident set memory usage: begin = 32.452 MB, end = 32.7 MB, delta = 0.248 MB
 INFO: 	Reading Mapping Library peak resident set memory usage = 32.704 MB
 INFO: ***** Ending Reading Mapping Library ... *****
@@ -93,12 +91,12 @@ Redirected 115 POs from buffers to PIs with the same name.
 [EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
 -- Writing netlist 'counter' to Verilog file 'C:/Efinity/2018.4/project/counter/outflow/counter.map.v' (VDB-1030)
 INFO: ***** Beginning VDB Netlist Checker ... *****
-INFO: VDB Netlist Checker took 0.043568 seconds.
-INFO: 	VDB Netlist Checker took 0.044 seconds (approximately) in total CPU time.
-INFO: VDB Netlist Checker virtual memory usage: begin = 49.88 MB, end = 49.88 MB, delta = 0 MB
-INFO: 	VDB Netlist Checker peak virtual memory usage = 78.776 MB
-INFO: VDB Netlist Checker resident set memory usage: begin = 42.972 MB, end = 43 MB, delta = 0.028 MB
-INFO: 	VDB Netlist Checker peak resident set memory usage = 63.048 MB
+INFO: VDB Netlist Checker took 0.0309103 seconds.
+INFO: 	VDB Netlist Checker took 0.031 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 49.888 MB, end = 49.888 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 78.784 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 42.984 MB, end = 43.012 MB, delta = 0.028 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 63.06 MB
 INFO: ***** Ending VDB Netlist Checker ... *****
 [EFX-0000 INFO] Resource Summary 
 [EFX-0000 INFO] =============================== 

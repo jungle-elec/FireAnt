@@ -65,7 +65,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \btn1_debounce[0]~FF .SR_VALUE = 1'b0;
     defparam \btn1_debounce[0]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[0]~FF  (.D(n66), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[0] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[0] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[0]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[0]~FF .CE_POLARITY = 1'b1;
     defparam \counter[0]~FF .SR_POLARITY = 1'b1;
@@ -182,7 +182,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \btn1_debounce[5]~FF .SR_VALUE = 1'b0;
     defparam \btn1_debounce[5]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[1]~FF  (.D(n64), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[1] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[1] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[1]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[1]~FF .CE_POLARITY = 1'b1;
     defparam \counter[1]~FF .SR_POLARITY = 1'b1;
@@ -191,7 +191,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[1]~FF .SR_VALUE = 1'b0;
     defparam \counter[1]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[2]~FF  (.D(n62), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[2] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[2] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[2]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[2]~FF .CE_POLARITY = 1'b1;
     defparam \counter[2]~FF .SR_POLARITY = 1'b1;
@@ -200,7 +200,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[2]~FF .SR_VALUE = 1'b0;
     defparam \counter[2]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[3]~FF  (.D(n78), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[3] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[3] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[3]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[3]~FF .CE_POLARITY = 1'b1;
     defparam \counter[3]~FF .SR_POLARITY = 1'b1;
@@ -209,7 +209,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[3]~FF .SR_VALUE = 1'b0;
     defparam \counter[3]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[4]~FF  (.D(n76), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[4] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[4] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[4]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[4]~FF .CE_POLARITY = 1'b1;
     defparam \counter[4]~FF .SR_POLARITY = 1'b1;
@@ -218,7 +218,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[4]~FF .SR_VALUE = 1'b0;
     defparam \counter[4]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[5]~FF  (.D(n14), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[5] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[5] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[5]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[5]~FF .CE_POLARITY = 1'b1;
     defparam \counter[5]~FF .SR_POLARITY = 1'b1;
@@ -227,7 +227,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[5]~FF .SR_VALUE = 1'b0;
     defparam \counter[5]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[6]~FF  (.D(n12), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[6] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[6] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[6]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[6]~FF .CE_POLARITY = 1'b1;
     defparam \counter[6]~FF .SR_POLARITY = 1'b1;
@@ -236,7 +236,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[6]~FF .SR_VALUE = 1'b0;
     defparam \counter[6]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[7]~FF  (.D(n8), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[7] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[7] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[7]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[7]~FF .CE_POLARITY = 1'b1;
     defparam \counter[7]~FF .SR_POLARITY = 1'b1;
@@ -245,7 +245,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[7]~FF .SR_VALUE = 1'b0;
     defparam \counter[7]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[8]~FF  (.D(n60), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[8] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[8] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[8]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[8]~FF .CE_POLARITY = 1'b1;
     defparam \counter[8]~FF .SR_POLARITY = 1'b1;
@@ -254,7 +254,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[8]~FF .SR_VALUE = 1'b0;
     defparam \counter[8]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[9]~FF  (.D(n58), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[9] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[9] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[9]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[9]~FF .CE_POLARITY = 1'b1;
     defparam \counter[9]~FF .SR_POLARITY = 1'b1;
@@ -263,7 +263,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[9]~FF .SR_VALUE = 1'b0;
     defparam \counter[9]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[10]~FF  (.D(n56), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[10] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[10] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[10]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[10]~FF .CE_POLARITY = 1'b1;
     defparam \counter[10]~FF .SR_POLARITY = 1'b1;
@@ -272,7 +272,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[10]~FF .SR_VALUE = 1'b0;
     defparam \counter[10]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[11]~FF  (.D(n54), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[11] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[11] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[11]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[11]~FF .CE_POLARITY = 1'b1;
     defparam \counter[11]~FF .SR_POLARITY = 1'b1;
@@ -281,7 +281,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[11]~FF .SR_VALUE = 1'b0;
     defparam \counter[11]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[12]~FF  (.D(n52), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[12] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[12] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[12]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[12]~FF .CE_POLARITY = 1'b1;
     defparam \counter[12]~FF .SR_POLARITY = 1'b1;
@@ -290,7 +290,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[12]~FF .SR_VALUE = 1'b0;
     defparam \counter[12]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[13]~FF  (.D(n50), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[13] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[13] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[13]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[13]~FF .CE_POLARITY = 1'b1;
     defparam \counter[13]~FF .SR_POLARITY = 1'b1;
@@ -299,7 +299,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[13]~FF .SR_VALUE = 1'b0;
     defparam \counter[13]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[14]~FF  (.D(n48), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[14] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[14] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[14]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[14]~FF .CE_POLARITY = 1'b1;
     defparam \counter[14]~FF .SR_POLARITY = 1'b1;
@@ -308,7 +308,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[14]~FF .SR_VALUE = 1'b0;
     defparam \counter[14]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[15]~FF  (.D(n46), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[15] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[15] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[15]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[15]~FF .CE_POLARITY = 1'b1;
     defparam \counter[15]~FF .SR_POLARITY = 1'b1;
@@ -317,7 +317,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[15]~FF .SR_VALUE = 1'b0;
     defparam \counter[15]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[16]~FF  (.D(n44), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[16] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[16] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[16]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[16]~FF .CE_POLARITY = 1'b1;
     defparam \counter[16]~FF .SR_POLARITY = 1'b1;
@@ -326,7 +326,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[16]~FF .SR_VALUE = 1'b0;
     defparam \counter[16]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[17]~FF  (.D(n42), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[17] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[17] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[17]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[17]~FF .CE_POLARITY = 1'b1;
     defparam \counter[17]~FF .SR_POLARITY = 1'b1;
@@ -335,7 +335,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[17]~FF .SR_VALUE = 1'b0;
     defparam \counter[17]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[18]~FF  (.D(n40), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[18] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[18] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[18]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[18]~FF .CE_POLARITY = 1'b1;
     defparam \counter[18]~FF .SR_POLARITY = 1'b1;
@@ -344,7 +344,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[18]~FF .SR_VALUE = 1'b0;
     defparam \counter[18]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[19]~FF  (.D(n38), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[19] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[19] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[19]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[19]~FF .CE_POLARITY = 1'b1;
     defparam \counter[19]~FF .SR_POLARITY = 1'b1;
@@ -353,7 +353,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[19]~FF .SR_VALUE = 1'b0;
     defparam \counter[19]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[20]~FF  (.D(n36), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[20] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[20] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[20]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[20]~FF .CE_POLARITY = 1'b1;
     defparam \counter[20]~FF .SR_POLARITY = 1'b1;
@@ -362,7 +362,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[20]~FF .SR_VALUE = 1'b0;
     defparam \counter[20]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[21]~FF  (.D(n34), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[21] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[21] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[21]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[21]~FF .CE_POLARITY = 1'b1;
     defparam \counter[21]~FF .SR_POLARITY = 1'b1;
@@ -371,7 +371,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[21]~FF .SR_VALUE = 1'b0;
     defparam \counter[21]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[22]~FF  (.D(n32), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[22] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[22] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[22]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[22]~FF .CE_POLARITY = 1'b1;
     defparam \counter[22]~FF .SR_POLARITY = 1'b1;
@@ -380,7 +380,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[22]~FF .SR_VALUE = 1'b0;
     defparam \counter[22]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[23]~FF  (.D(n30), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[23] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[23] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[23]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[23]~FF .CE_POLARITY = 1'b1;
     defparam \counter[23]~FF .SR_POLARITY = 1'b1;
@@ -389,7 +389,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[23]~FF .SR_VALUE = 1'b0;
     defparam \counter[23]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[24]~FF  (.D(n28), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[24] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[24] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[24]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[24]~FF .CE_POLARITY = 1'b1;
     defparam \counter[24]~FF .SR_POLARITY = 1'b1;
@@ -398,7 +398,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[24]~FF .SR_VALUE = 1'b0;
     defparam \counter[24]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[25]~FF  (.D(n26), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[25] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[25] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[25]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[25]~FF .CE_POLARITY = 1'b1;
     defparam \counter[25]~FF .SR_POLARITY = 1'b1;
@@ -407,7 +407,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[25]~FF .SR_VALUE = 1'b0;
     defparam \counter[25]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[26]~FF  (.D(n24), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[26] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[26] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[26]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[26]~FF .CE_POLARITY = 1'b1;
     defparam \counter[26]~FF .SR_POLARITY = 1'b1;
@@ -416,7 +416,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[26]~FF .SR_VALUE = 1'b0;
     defparam \counter[26]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[27]~FF  (.D(n22), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[27] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[27] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[27]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[27]~FF .CE_POLARITY = 1'b1;
     defparam \counter[27]~FF .SR_POLARITY = 1'b1;
@@ -425,7 +425,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[27]~FF .SR_VALUE = 1'b0;
     defparam \counter[27]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[28]~FF  (.D(n20), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[28] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[28] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[28]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[28]~FF .CE_POLARITY = 1'b1;
     defparam \counter[28]~FF .SR_POLARITY = 1'b1;
@@ -434,7 +434,7 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[28]~FF .SR_VALUE = 1'b0;
     defparam \counter[28]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_FF \counter[29]~FF  (.D(n19), .CE(pll_inst1_LOCKED), .CLK(\pll_inst1_CLKOUT0~O ), 
-           .SR(1'b0), .Q(\counter[29] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(58)
+           .SR(1'b0), .Q(\counter[29] )) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_FF, CLK_POLARITY=1'b1, D_POLARITY=1'b1, CE_POLARITY=1'b1, SR_SYNC=1'b1, SR_SYNC_PRIORITY=1'b1, SR_VALUE=1'b0, SR_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(59)
     defparam \counter[29]~FF .CLK_POLARITY = 1'b1;
     defparam \counter[29]~FF .CE_POLARITY = 1'b1;
     defparam \counter[29]~FF .SR_POLARITY = 1'b1;
@@ -443,11 +443,11 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \counter[29]~FF .SR_VALUE = 1'b0;
     defparam \counter[29]~FF .SR_SYNC_PRIORITY = 1'b1;
     EFX_ADD \add_14/i2  (.I0(\btn0_debounce[1] ), .I1(\btn0_debounce[0] ), 
-            .CI(1'b0), .O(n5), .CO(n6)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(71)
+            .CI(1'b0), .O(n5), .CO(n6)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(72)
     defparam \add_14/i2 .I0_POLARITY = 1'b1;
     defparam \add_14/i2 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i8  (.I0(\counter[7] ), .I1(n137), .CI(n13), .O(n8), 
-            .CO(n9)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n9)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i8 .I0_POLARITY = 1'b1;
     defparam \add_7/i8 .I1_POLARITY = 1'b1;
     EFX_ADD \add_25/i2  (.I0(\btn1_debounce[1] ), .I1(\btn1_debounce[0] ), 
@@ -455,110 +455,110 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \add_25/i2 .I0_POLARITY = 1'b1;
     defparam \add_25/i2 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i7  (.I0(\counter[6] ), .I1(n142), .CI(n15), .O(n12), 
-            .CO(n13)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n13)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i7 .I0_POLARITY = 1'b1;
     defparam \add_7/i7 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i6  (.I0(\counter[5] ), .I1(n145), .CI(n77), .O(n14), 
-            .CO(n15)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n15)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i6 .I0_POLARITY = 1'b1;
     defparam \add_7/i6 .I1_POLARITY = 1'b1;
-    EFX_ADD \add_7/i30  (.I0(\counter[29] ), .I1(1'b0), .CI(n21), .O(n19)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+    EFX_ADD \add_7/i30  (.I0(\counter[29] ), .I1(1'b0), .CI(n21), .O(n19)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i30 .I0_POLARITY = 1'b1;
     defparam \add_7/i30 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i29  (.I0(\counter[28] ), .I1(1'b0), .CI(n23), .O(n20), 
-            .CO(n21)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n21)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i29 .I0_POLARITY = 1'b1;
     defparam \add_7/i29 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i28  (.I0(\counter[27] ), .I1(1'b0), .CI(n25), .O(n22), 
-            .CO(n23)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n23)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i28 .I0_POLARITY = 1'b1;
     defparam \add_7/i28 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i27  (.I0(\counter[26] ), .I1(1'b0), .CI(n27), .O(n24), 
-            .CO(n25)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n25)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i27 .I0_POLARITY = 1'b1;
     defparam \add_7/i27 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i26  (.I0(\counter[25] ), .I1(1'b0), .CI(n29), .O(n26), 
-            .CO(n27)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n27)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i26 .I0_POLARITY = 1'b1;
     defparam \add_7/i26 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i25  (.I0(\counter[24] ), .I1(1'b0), .CI(n31), .O(n28), 
-            .CO(n29)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n29)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i25 .I0_POLARITY = 1'b1;
     defparam \add_7/i25 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i24  (.I0(\counter[23] ), .I1(1'b0), .CI(n33), .O(n30), 
-            .CO(n31)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n31)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i24 .I0_POLARITY = 1'b1;
     defparam \add_7/i24 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i23  (.I0(\counter[22] ), .I1(1'b0), .CI(n35), .O(n32), 
-            .CO(n33)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n33)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i23 .I0_POLARITY = 1'b1;
     defparam \add_7/i23 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i22  (.I0(\counter[21] ), .I1(1'b0), .CI(n37), .O(n34), 
-            .CO(n35)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n35)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i22 .I0_POLARITY = 1'b1;
     defparam \add_7/i22 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i21  (.I0(\counter[20] ), .I1(1'b0), .CI(n39), .O(n36), 
-            .CO(n37)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n37)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i21 .I0_POLARITY = 1'b1;
     defparam \add_7/i21 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i20  (.I0(\counter[19] ), .I1(1'b0), .CI(n41), .O(n38), 
-            .CO(n39)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n39)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i20 .I0_POLARITY = 1'b1;
     defparam \add_7/i20 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i19  (.I0(\counter[18] ), .I1(1'b0), .CI(n43), .O(n40), 
-            .CO(n41)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n41)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i19 .I0_POLARITY = 1'b1;
     defparam \add_7/i19 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i18  (.I0(\counter[17] ), .I1(1'b0), .CI(n45), .O(n42), 
-            .CO(n43)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n43)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i18 .I0_POLARITY = 1'b1;
     defparam \add_7/i18 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i17  (.I0(\counter[16] ), .I1(1'b0), .CI(n47), .O(n44), 
-            .CO(n45)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n45)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i17 .I0_POLARITY = 1'b1;
     defparam \add_7/i17 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i16  (.I0(\counter[15] ), .I1(1'b0), .CI(n49), .O(n46), 
-            .CO(n47)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n47)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i16 .I0_POLARITY = 1'b1;
     defparam \add_7/i16 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i15  (.I0(\counter[14] ), .I1(1'b0), .CI(n51), .O(n48), 
-            .CO(n49)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n49)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i15 .I0_POLARITY = 1'b1;
     defparam \add_7/i15 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i14  (.I0(\counter[13] ), .I1(1'b0), .CI(n53), .O(n50), 
-            .CO(n51)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n51)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i14 .I0_POLARITY = 1'b1;
     defparam \add_7/i14 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i13  (.I0(\counter[12] ), .I1(1'b0), .CI(n55), .O(n52), 
-            .CO(n53)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n53)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i13 .I0_POLARITY = 1'b1;
     defparam \add_7/i13 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i12  (.I0(\counter[11] ), .I1(1'b0), .CI(n57), .O(n54), 
-            .CO(n55)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n55)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i12 .I0_POLARITY = 1'b1;
     defparam \add_7/i12 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i11  (.I0(\counter[10] ), .I1(1'b0), .CI(n59), .O(n56), 
-            .CO(n57)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n57)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i11 .I0_POLARITY = 1'b1;
     defparam \add_7/i11 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i10  (.I0(\counter[9] ), .I1(1'b0), .CI(n61), .O(n58), 
-            .CO(n59)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n59)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i10 .I0_POLARITY = 1'b1;
     defparam \add_7/i10 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i9  (.I0(\counter[8] ), .I1(1'b0), .CI(n9), .O(n60), 
-            .CO(n61)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n61)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i9 .I0_POLARITY = 1'b1;
     defparam \add_7/i9 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i3  (.I0(\counter[2] ), .I1(n198), .CI(n65), .O(n62), 
-            .CO(n63)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n63)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i3 .I0_POLARITY = 1'b1;
     defparam \add_7/i3 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i2  (.I0(\counter[1] ), .I1(n201), .CI(n67), .O(n64), 
-            .CO(n65)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n65)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i2 .I0_POLARITY = 1'b1;
     defparam \add_7/i2 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i1  (.I0(\counter[0] ), .I1(n204), .CI(1'b0), .O(n66), 
-            .CO(n67)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n67)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i1 .I0_POLARITY = 1'b1;
     defparam \add_7/i1 .I1_POLARITY = 1'b1;
     EFX_ADD \add_25/i6  (.I0(\btn1_debounce[5] ), .I1(1'b0), .CI(n81), 
@@ -570,11 +570,11 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \add_25/i4 .I0_POLARITY = 1'b1;
     defparam \add_25/i4 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i5  (.I0(\counter[4] ), .I1(n216), .CI(n79), .O(n76), 
-            .CO(n77)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n77)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i5 .I0_POLARITY = 1'b1;
     defparam \add_7/i5 .I1_POLARITY = 1'b1;
     EFX_ADD \add_7/i4  (.I0(\counter[3] ), .I1(n219), .CI(n63), .O(n78), 
-            .CO(n79)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(55)
+            .CO(n79)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(56)
     defparam \add_7/i4 .I0_POLARITY = 1'b1;
     defparam \add_7/i4 .I1_POLARITY = 1'b1;
     EFX_ADD \add_25/i5  (.I0(\btn1_debounce[4] ), .I1(1'b0), .CI(n75), 
@@ -586,19 +586,19 @@ module counter (LED, BTN, pll_inst1_RSTN, pll_inst1_LOCKED, pll_inst1_CLKOUT0);
     defparam \add_25/i3 .I0_POLARITY = 1'b1;
     defparam \add_25/i3 .I1_POLARITY = 1'b1;
     EFX_ADD \add_14/i5  (.I0(\btn0_debounce[4] ), .I1(1'b0), .CI(n90), 
-            .O(n84), .CO(n85)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(71)
+            .O(n84), .CO(n85)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(72)
     defparam \add_14/i5 .I0_POLARITY = 1'b1;
     defparam \add_14/i5 .I1_POLARITY = 1'b1;
     EFX_ADD \add_14/i3  (.I0(\btn0_debounce[2] ), .I1(1'b0), .CI(n6), 
-            .O(n86), .CO(n87)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(71)
+            .O(n86), .CO(n87)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(72)
     defparam \add_14/i3 .I0_POLARITY = 1'b1;
     defparam \add_14/i3 .I1_POLARITY = 1'b1;
     EFX_ADD \add_14/i6  (.I0(\btn0_debounce[5] ), .I1(1'b0), .CI(n85), 
-            .O(n88)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(71)
+            .O(n88)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(72)
     defparam \add_14/i6 .I0_POLARITY = 1'b1;
     defparam \add_14/i6 .I1_POLARITY = 1'b1;
     EFX_ADD \add_14/i4  (.I0(\btn0_debounce[3] ), .I1(1'b0), .CI(n87), 
-            .O(n89), .CO(n90)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(71)
+            .O(n89), .CO(n90)) /* verific EFX_ATTRIBUTE_CELL_NAME=EFX_ADD, I0_POLARITY=1'b1, I1_POLARITY=1'b1 */ ;   // C:/Efinity/2018.4/project/counter/counter.v(72)
     defparam \add_14/i4 .I0_POLARITY = 1'b1;
     defparam \add_14/i4 .I1_POLARITY = 1'b1;
     EFX_LUT4 LUT__401 (.I0(\shift_counter[0] ), .I1(\shift_counter[1] ), 

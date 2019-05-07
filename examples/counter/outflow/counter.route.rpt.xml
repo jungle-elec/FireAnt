@@ -11,7 +11,7 @@
     <efx:group_data info="runtime" name="packing" value="0|0:0:0"/>
     <efx:group_data info="runtime" name="placement" value="0|0:0:3"/>
     <efx:group_data info="runtime" name="routing" value="0|0:0:0"/>
-    <efx:group_data info="peak_rr" name="Peak RSS" value="172.348 MB"/>
+    <efx:group_data info="peak_rr" name="Peak RSS" value="172.984 MB"/>
   </efx:group>
 
   <efx:group name="Timing">

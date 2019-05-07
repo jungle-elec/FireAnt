@@ -5,7 +5,7 @@
 // Project Name:			counter
 // Design File:				counter.v
 // Create Date:				06/05/2019 
-// Last Edited:				06/05/2019
+// Last Edited:				07/05/2019
 // Design Description:		This program is the out-of-box demo and "Creating Your 
 //							Own Project" example of FireAnt. It demos 
 // 								
@@ -13,6 +13,7 @@
 // **************************************************
 // Revision History: 
 // v1			06/05/2019		Initial Release
+// v1.1			07/05/2019		Minor Modify
 // **************************************************
 // 
 //////////////////////////////////////////////////////////////////////////////////////
@@ -68,7 +69,7 @@ begin
 		end
 		else
 		begin
-			btn0_debounce <= btn0_debounce + 8'd1;
+			btn0_debounce <= btn0_debounce + 6'd1;
 		end
 	end
 	else
@@ -79,7 +80,7 @@ begin
 			shift_counter <= shift_counter < 3'd7 ? shift_counter + 3'd1 : 3'd7;
 		end
 				
-		btn0_debounce <= 8'd0;
+		btn0_debounce <= 6'd0;
 	end
 
 	if (BTN[1] == 1'b0)
@@ -90,7 +91,7 @@ begin
 		end
 		else
 		begin
-			btn1_debounce <= btn1_debounce + 8'd1;
+			btn1_debounce <= btn1_debounce + 6'd1;
 		end
 	end
 	else
@@ -101,7 +102,7 @@ begin
 			shift_counter <= shift_counter > 3'd0 ? shift_counter - 3'd1 : 3'd0; 
 		end
 				
-		btn1_debounce <= 8'd0;
+		btn1_debounce <= 6'd0;
 	end
 end
 endmodule
